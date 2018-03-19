@@ -1,4 +1,5 @@
+#!/bin/sh
 
 node generator.js
 
-java -jar moco-runner-0.11.0-standalone.jar start -p 12306 -g api.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 12306 -g api.json
