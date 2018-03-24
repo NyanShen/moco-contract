@@ -1,0 +1,45 @@
+[
+  {
+    "description": "everyOneCanGetFormItem",
+    "request":{
+      "method" :"GET",
+      "uri":"/api/user"
+    },
+
+    "response":{
+      "status": 200,
+      "json": [
+        {
+          "field": "jobid",
+          "text": "工号",
+          "errorMessage": "请输入工号",
+          "required": true,
+          "type": "int",
+          "value": 100
+        }, {
+          "field": "date",
+          "text": "日期",
+          "errorMessage": "请输入日期",
+          "required": false,
+          "type": "date",
+          "value": "2017-10-20"
+        }, {
+          "field": "username",
+          "text": "用户名",
+          "errorMessage": "请输入用户名",
+          "required": true,
+          "type": "char",
+          "value": "hello world"
+        }, {
+          "field": "customer",
+          "text": "客户",
+          "errorMessage": "请输入客户",
+          "required": true,
+          "type": "select",
+          "value": "中兴",
+          "options": ["贝尔", "中兴", "烽火"]
+        }
+      ]
+    }
+  }
+]

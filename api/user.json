@@ -1,0 +1,63 @@
+[
+  {
+    "description": "everyOneCanGetUserByName",
+    "request":{
+      "method" :"GET",
+      "uri":"/api/user",
+      "queries":{
+        "username":"nick"
+      }
+    },
+
+    "response":{
+      "status": 200,
+      "json": {
+        "content": [
+          {
+            "id": "10001",
+            "username": "nick",
+            "fullName": "mack nick",
+            "email": "nickmack@istom.com",
+            "phone": "132834959600"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "description": "everyOneCanGetUser",
+    "request":{
+      "method" :"GET",
+      "uri":"/api/user"
+    },
+
+    "response":{
+      "status": 200,
+      "json": {
+        "content": [
+          {
+            "id": "10001",
+            "username": "nick",
+            "fullName": "mack nick",
+            "email": "nickmack@istom.com",
+            "phone": "132834959600"
+          },
+          {
+            "id": "10002",
+            "username": "nyan",
+            "fullName": "nyan shen",
+            "email": "nyanShen@istom.com",
+            "phone": "1328343556667"
+          },
+          {
+            "id": "10003",
+            "username": "lucy",
+            "fullName": "lucy chen",
+            "email": "lucChen@istom.com",
+            "phone": "1325443556652"
+          }
+        ]
+      }
+    }
+  }
+]
