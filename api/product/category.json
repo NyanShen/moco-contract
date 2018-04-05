@@ -1,0 +1,80 @@
+[
+  {
+    "description": "everyOneCanGetCategoryById",
+    "request":{
+      "method" :"GET",
+      "uri":"/api/product/category",
+      "queries":{
+        "id":"0"
+      }
+    },
+
+    "response":{
+      "status": 200,
+      "json": [
+        {
+          "id": 2,
+          "parentId": 1,
+          "name": "手机",
+          "status": true,
+          "sortOrder": 3,
+          "createTime": 1479622913000,
+          "updateTime": 1479622913000
+        },
+        {
+          "id": 4,
+          "parentId": 1,
+          "name": "移动座机",
+          "status": true,
+          "sortOrder": 5,
+          "createTime": 1480059936000,
+          "updateTime": 1480491941000
+        }
+      ]
+    }
+  },
+  {
+    "description": "everyOneCanGetCategoryById",
+    "request":{
+      "method" :"GET",
+      "uri":"/api/product/category",
+      "queries":{
+        "id":"2"
+      }
+    },
+
+    "response":{
+      "status": 200,
+      "json": [
+        {
+          "id": 3,
+          "parentId": 1,
+          "name": "iphone",
+          "status": true,
+          "sortOrder": 3,
+          "createTime": 1479622913000,
+          "updateTime": 1479622913000
+        }
+      ]
+    }
+  },
+  {
+    "description": "everyOneCanGetCategoryById",
+    "request":{
+      "method" :"GET",
+      "uri":"/api/product/category",
+      "queries":{
+        "id":"12"
+      }
+    },
+
+    "response":{
+      "status": 442,
+      "json": {
+        "data": {
+          "message": "未找到该品类"
+        }
+      }
+    }
+  }
+]

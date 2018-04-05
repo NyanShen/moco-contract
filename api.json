@@ -1,5 +1,11 @@
 [
   {
+    "include": "api/formItem.json"
+  },
+  {
+    "include": "api/product/category.json"
+  },
+  {
     "include": "api/user.json"
   }
 ]
