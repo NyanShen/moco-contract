@@ -3,9 +3,9 @@
     "description": "everyOneCanGetCategoryById",
     "request":{
       "method" :"GET",
-      "uri":"/api/product/category",
+      "uri":"/api/products/categories",
       "queries":{
-        "id":"0"
+        "categoryId":"0"
       }
     },
 
@@ -37,9 +37,9 @@
     "description": "everyOneCanGetCategoryById",
     "request":{
       "method" :"GET",
-      "uri":"/api/product/category",
+      "uri":"/api/products/categories",
       "queries":{
-        "id":"2"
+        "categoryId":"2"
       }
     },
 
@@ -47,11 +47,20 @@
       "status": 200,
       "json": [
         {
-          "id": 3,
-          "parentId": 1,
-          "name": "iphone",
+          "id": 1,
+          "parentId": 2,
+          "name": "iphone 6",
           "status": true,
-          "sortOrder": 3,
+          "sortOrder": 1,
+          "createTime": 1479622913000,
+          "updateTime": 1479622913000
+        },
+        {
+          "id": 2,
+          "parentId": 2,
+          "name": "MX6",
+          "status": true,
+          "sortOrder": 1,
           "createTime": 1479622913000,
           "updateTime": 1479622913000
         }
@@ -62,9 +71,9 @@
     "description": "everyOneCanGetCategoryById",
     "request":{
       "method" :"GET",
-      "uri":"/api/product/category",
+      "uri":"/api/products/categories",
       "queries":{
-        "id":"12"
+        "categoryId":"12"
       }
     },
 

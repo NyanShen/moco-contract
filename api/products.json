@@ -1,0 +1,26 @@
+[
+  {
+    "description": "everyOneCanPostProduct",
+    "request":{
+      "method" :"POST",
+      "uri":"/api/products",
+      "json": {
+        "categoryId": "2",
+        "detail": "",
+        "name": "Angular 4.0从入门到实战",
+        "price": "266",
+        "status": 1,
+        "stock": "",
+        "subImages": "",
+        "subtitle": "Angular 4.0从入门到实战"
+      }
+    },
+
+    "response": {
+      "status": 201,
+      "json": {
+        "message": "response success"
+      }
+    }
+  }
+]

@@ -3,7 +3,10 @@
     "include": "api/formItem.json"
   },
   {
-    "include": "api/product/category.json"
+    "include": "api/products/category.json"
+  },
+  {
+    "include": "api/products.json"
   },
   {
     "include": "api/user.json"
