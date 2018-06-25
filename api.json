@@ -9,6 +9,9 @@
     "include": "api/products.json"
   },
   {
+    "include": "api/tokens.json"
+  },
+  {
     "include": "api/user.json"
   }
 ]

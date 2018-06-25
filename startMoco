@@ -4,4 +4,4 @@ cd $(dirname $0)
 
 ./generator.js
 
-java -Dfile.encoding=UTF-8 -jar ./moco-runner-0.11.0-standalone.jar http -p 12306 -g api.json
+java -Dfile.encoding=UTF-8 -jar ./moco-runner-0.10.0-standalone.jar http -p 12306 -g api.json
