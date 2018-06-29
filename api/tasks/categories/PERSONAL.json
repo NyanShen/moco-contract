@@ -1,0 +1,62 @@
+[
+  {
+    "description": "everyOneCanGetPERSONALTask",
+    "request": {
+      "method": "GET",
+      "uri": "/api/tasks/categories/PERSONAL",
+      "queries": {
+        "page": "0",
+        "size": "10"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "content": [
+          {
+            "process": {
+              "id": "PI20180629001",
+              "planId": "plan_id_001",
+              "planName": "职业年金受托计划",
+              "typeCode": "MNBI0101",
+              "startTime": "2018-06-29",
+              "endTime": null,
+              "transactorId": "transactor_id_001",
+              "remark": "remark"
+            },
+            "task": {
+              "id": "20180629001",
+              "key": "input",
+              "name": "计划信息变更",
+              "assigneeId": "operator_id_001",
+              "assigneeName": "Na",
+              "createTime": "2018-06-29",
+              "endTime": null
+            }
+          },
+          {
+            "process": {
+              "id": "PI20180629002",
+              "planId": "plan_id_001",
+              "planName": "职业年金受托计划",
+              "typeCode": "MNBI0201",
+              "startTime": "2018-06-29",
+              "endTime": null,
+              "transactorId": "transactor_id_001",
+              "remark": "remark"
+            },
+            "task": {
+              "id": "20180629002",
+              "key": "input",
+              "name": "管理人信息变更",
+              "assigneeId": "operator_id_001",
+              "assigneeName": "Na",
+              "createTime": "2018-06-29",
+              "endTime": null
+            }
+          }
+        ]
+      }
+    }
+  }
+]

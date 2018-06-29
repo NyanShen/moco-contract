@@ -1,0 +1,48 @@
+[
+  {
+    "description": "userCanGetMenus",
+    "request": {
+      "method": "GET",
+      "uri": "/api/menus"
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "id": "DEMO0000",
+        "fatherId": "00000000",
+        "state": "process",
+        "name": "运营流程",
+        "childItems": [
+          {
+            "id": "DEMO1000",
+            "fatherId": "DEMO0000",
+            "state": "/process.personal-task-pool",
+            "name": "个人任务池",
+            "childItems": []
+          },
+          {
+            "id": "DEMO2000",
+            "fatherId": "DEMO0000",
+            "state": "/process.common-task-pool",
+            "name": "公共任务池",
+            "childItems": []
+          },
+          {
+            "id": "DEMO1000",
+            "fatherId": "DEMO0000",
+            "state": "/process.launch",
+            "name": "流程发起",
+            "childItems": []
+          },
+          {
+            "id": "DEMO1000",
+            "fatherId": "DEMO0000",
+            "state": "/process.search",
+            "name": "流程查询",
+            "childItems": []
+          }
+        ]
+      }
+    }
+  }
+]

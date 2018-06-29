@@ -3,10 +3,16 @@
     "include": "api/formItem.json"
   },
   {
+    "include": "api/menus.json"
+  },
+  {
     "include": "api/products/category.json"
   },
   {
     "include": "api/products.json"
+  },
+  {
+    "include": "api/tasks/categories/PERSONAL.json"
   },
   {
     "include": "api/tokens.json"

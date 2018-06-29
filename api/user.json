@@ -28,7 +28,11 @@
     "description": "everyOneCanGetUser",
     "request":{
       "method" :"GET",
-      "uri":"/api/user"
+      "uri":"/api/user",
+      "queries": {
+        "page": "0",
+        "size": "10"
+      }
     },
 
     "response":{
