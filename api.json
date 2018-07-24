@@ -6,6 +6,9 @@
     "include": "api/menus.json"
   },
   {
+    "include": "api/message.json"
+  },
+  {
     "include": "api/products/category.json"
   },
   {

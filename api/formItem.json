@@ -3,7 +3,7 @@
     "description": "everyOneCanGetFormItem",
     "request":{
       "method" :"GET",
-      "uri":"/api/user"
+      "uri":"/api/formItem"
     },
 
     "response":{

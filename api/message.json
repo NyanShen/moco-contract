@@ -1,0 +1,55 @@
+[
+  {
+    "description": "everyOneCanGetFormItem",
+    "request":{
+      "method" :"GET",
+      "uri":"/api/message"
+    },
+
+    "response":{
+      "status": 200,
+      "json": [
+        {
+          "id": "message_id_001",
+          "text": "redux-thunk — 用最简单的方式搭建异步 action 构造器",
+          "action": "/reducer"
+        },
+        {
+          "id": "message_id_002",
+          "text": "redux-promise — 遵从 FSA 标准的 promise 中间件",
+          "action": "/reducer"
+        },
+        {
+          "id": "message_id_003",
+          "text": "redux-axios-middleware — 使用 axios HTTP 客户端获取数据的 Redux 中间件",
+          "action": "/reducer"
+        },
+        {
+          "id": "message_id_004",
+          "text": "redux-observable — Redux 的 RxJS 中间件",
+          "action": "/reducer"
+        },
+        {
+          "id": "message_id_005",
+          "text": "redux-saga — Redux 应用的另一种副作用 model",
+          "action": "/reducer"
+        },
+        {
+          "id": "message_id_006",
+          "text": "apollo-client — 针对 GraphQL 服务器及基于 Redux 的 UI 框架的缓存客户端",
+          "action": "/reducer"
+        },
+        {
+          "id": "message_id_007",
+          "text": "redux-logger — 记录所有 Redux action 和下一次 state 的日志",
+          "action": "/reducer"
+        },
+        {
+          "id": "message_id_008",
+          "text": "redux-observable — Redux 的 RxJS 中间件",
+          "action": "/reducer"
+        }
+      ]
+    }
+  }
+]

@@ -7,42 +7,74 @@
     },
     "response": {
       "status": 200,
-      "json": {
-        "id": "DEMO0000",
-        "fatherId": "00000000",
-        "state": "process",
-        "name": "运营流程",
-        "childItems": [
-          {
-            "id": "DEMO1000",
-            "fatherId": "DEMO0000",
-            "state": "/process.personal-task-pool",
-            "name": "个人任务池",
-            "childItems": []
-          },
-          {
-            "id": "DEMO2000",
-            "fatherId": "DEMO0000",
-            "state": "/process.common-task-pool",
-            "name": "公共任务池",
-            "childItems": []
-          },
-          {
-            "id": "DEMO1000",
-            "fatherId": "DEMO0000",
-            "state": "/process.launch",
-            "name": "流程发起",
-            "childItems": []
-          },
-          {
-            "id": "DEMO1000",
-            "fatherId": "DEMO0000",
-            "state": "/process.search",
-            "name": "流程查询",
-            "childItems": []
-          }
-        ]
-      }
+      "json": [
+        {
+          "id": "MAIL0000",
+          "fatherId": "00000000",
+          "state": "mail",
+          "name": "邮箱管理",
+          "childItems": [
+            {
+              "id": "MAIL1000",
+              "fatherId": "MAIL0000",
+              "state": "mail01",
+              "name": "邮箱/RT02859",
+              "childItems": [
+                {
+                  "id": "MAIL1100",
+                  "fatherId": "MAIL1000",
+                  "state": "/mail01.inbox",
+                  "name": "收件箱",
+                  "childItems": []
+                },
+                {
+                  "id": "MAIL1200",
+                  "fatherId": "MAIL1000",
+                  "state": "/mail01.outbox",
+                  "name": "发件箱",
+                  "childItems": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "DEMO0000",
+          "fatherId": "00000000",
+          "state": "process",
+          "name": "运营流程",
+          "childItems": [
+            {
+              "id": "DEMO1000",
+              "fatherId": "DEMO0000",
+              "state": "/process.personal-task-pool",
+              "name": "个人任务池",
+              "childItems": []
+            },
+            {
+              "id": "DEMO2000",
+              "fatherId": "DEMO0000",
+              "state": "/process.common-task-pool",
+              "name": "公共任务池",
+              "childItems": []
+            },
+            {
+              "id": "DEMO1000",
+              "fatherId": "DEMO0000",
+              "state": "/process.launch",
+              "name": "流程发起",
+              "childItems": []
+            },
+            {
+              "id": "DEMO1000",
+              "fatherId": "DEMO0000",
+              "state": "/process.search",
+              "name": "流程查询",
+              "childItems": []
+            }
+          ]
+        }
+      ]
     }
   }
 ]
