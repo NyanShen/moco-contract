@@ -3,6 +3,9 @@
     "include": "api/formItem.json"
   },
   {
+    "include": "api/mail/INBOX.json"
+  },
+  {
     "include": "api/menus.json"
   },
   {

@@ -1,0 +1,72 @@
+[
+  {
+    "description": "everyOneCanGetMailInbox",
+    "request":{
+      "method" :"GET",
+      "uri":"/api/mail/INBOX",
+      "queries": {
+        "page": "0",
+        "size": "10"
+      }
+    },
+
+    "response":{
+      "status": 200,
+      "json": {
+        "content": [
+          {
+            "id": "mail_id_20180730001",
+            "addressTo": "addressTo01@126.com",
+            "addressFrom": "addressFrom01@126.com",
+            "subject": "2018年度调查表0000000000000003213",
+            "content": "2018年度调查表-正文",
+            "sendDate": "2018-07-21 21:22:09",
+            "receiveDate": "2018-07-21 21:22:39",
+            "size": 54333,
+            "starFlag": false,
+            "hasFile": true
+          },
+          {
+            "id": "mail_id_20180731003",
+            "addressTo": "addressTo02@126.com",
+            "addressFrom": "addressFrom02@126.com",
+            "subject": "2018年度调查表test0001",
+            "content": "2018年度调查表test20180824update-正文",
+            "sendDate": "2018-07-22 21:22:09",
+            "receiveDate": "2018-07-22 21:22:39",
+            "size": 9890,
+            "starFlag": false,
+            "hasFile": false
+          },
+          {
+            "id": "mail_id_20180824001",
+            "addressTo": "addressTo02@126.com",
+            "addressFrom": "addressFrom02@126.com",
+            "subject": "流程发布系统uat测试结果汇总",
+            "content": "流程发布系统uat测试结果汇总-正文",
+            "sendDate": "2018-07-22 21:22:09",
+            "receiveDate": "2018-07-22 21:22:39",
+            "size": 9890,
+            "starFlag": false,
+            "hasFile": false
+          },
+          {
+            "id": "mail_id_20180824002",
+            "addressTo": "addressTo02@126.com;addressTo04@qq.com",
+            "addressFrom": "addressFrom01@126.com",
+            "subject": "养老金平台受托公共业务流程重构测试需求案例",
+            "content": "养老金平台受托公共业务流程重构测试需求案例-正文",
+            "sendDate": "2018-08-22 21:22:09",
+            "receiveDate": "2018-08-24 21:22:39",
+            "size": 9890,
+            "starFlag": true,
+            "hasFile": true
+          }
+        ],
+        "size": 10,
+        "totalPages": 1,
+        "totalElements": 4
+      }
+    }
+  }
+]
