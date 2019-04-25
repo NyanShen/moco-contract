@@ -1,5 +1,8 @@
 [
   {
+    "include": "api/activity/applications.json"
+  },
+  {
     "include": "api/formItem.json"
   },
   {
@@ -25,5 +28,8 @@
   },
   {
     "include": "api/user.json"
+  },
+  {
+    "include": "api/verifyCode.json"
   }
 ]

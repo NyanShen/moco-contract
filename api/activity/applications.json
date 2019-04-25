@@ -1,0 +1,59 @@
+[
+    {
+      "description": "everyOneCanGetActivityApplications",
+      "request":{
+        "method" :"GET",
+        "uri":"/api/activity/applications",
+        "queries": {
+            "page": "0",
+            "size": "10"
+        }
+      },
+  
+      "response":{
+        "status": 200,
+        "json": {
+          "content": [
+            {
+              "id": "10001",
+              "name": "nick shen 001",
+              "companyName": "mack nick 001",
+              "position": "web front programmer",
+              "telephone": "132834959600",
+              "activityName": "体检折扣优惠活动",
+              "receptionName": "Nyan Pjjk"
+            },
+            {
+                "id": "10002",
+                "name": "nick shen 002",
+                "companyName": "mack nick 002",
+                "position": "java programmer",
+                "telephone": "132834959600",
+                "activityName": "电子产品折扣优惠活动",
+                "receptionName": "Nyan Pjjk"
+              },
+              {
+                "id": "10003",
+                "name": "John",
+                "companyName": "Ats",
+                "position": "css programmer",
+                "telephone": "132834959600",
+                "activityName": "体检折扣优惠活动",
+                "receptionName": "Nyan Pjjk"
+              },
+              {
+                "id": "10004",
+                "name": "pack kon",
+                "companyName": "mack nick",
+                "position": "web front programmer",
+                "telephone": "132834959600",
+                "activityName": "体检折扣优惠活动",
+                "receptionName": "Nyan Pjjk"
+              }
+          ],
+          "totalElements": 4,
+          "totalPages": 1
+        }
+      }
+    }
+  ]
