@@ -1,0 +1,48 @@
+[
+    {
+        "description": "everyOneCanDeclaredItem",
+        "request": {
+            "method": "GET",
+            "uri": "/api/declared/items",
+            "queries": {
+                "project": "0000",
+                "year": "2019"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": [
+                {
+                    "projectNo": "1001",
+                    "projectName": "住房租金",
+                    "year": "2019",
+                    "origin": "本人",
+                    "latestChangeTime": "2019-06-02 08:20",
+                    "projectMap": [
+                        {
+                            "fieldIndex": "1001",
+                            "fieldName": "房屋坐落地址",
+                            "fieldValue": "广东省深圳市宝安区西乡街道公园新村五巷7号105"
+                        },
+                        {
+                            "fieldIndex": "1002",
+                            "fieldName": "租赁时间段",
+                            "fieldValue": "2017.05-2020.05"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "description": "everyOneCanDeclaredItem",
+        "request": {
+            "method": "GET",
+            "uri": "/api/declared/items"
+        },
+        "response": {
+            "status": 200,
+            "json": []
+        }
+    }
+]

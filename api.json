@@ -3,6 +3,9 @@
     "include": "api/activity/applications.json"
   },
   {
+    "include": "api/declare/declared-items.json"
+  },
+  {
     "include": "api/formItem.json"
   },
   {
