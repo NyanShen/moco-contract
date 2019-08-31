@@ -1,0 +1,118 @@
+[
+    {
+        "description": "everyOneCanGetTowns",
+        "request": {
+            "method": "GET",
+            "uri": "/api/common/towns",
+            "queries": {
+                "baseCode": "GD_PR_CI_AR",
+                "parentCode": "440306"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": [
+                {
+                    "value": "440306001",
+                    "label": "西乡街道",
+                    "level": null,
+                    "name": "西乡街道",
+                    "parent": "440306",
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "440306002",
+                    "label": "福永街道",
+                    "level": null,
+                    "name": "福永街道",
+                    "parent": "440306",
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "440306003",
+                    "label": "沙井街道",
+                    "level": null,
+                    "name": "沙井街道",
+                    "parent": "440306",
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "440306004",
+                    "label": "松岗街道",
+                    "level": null,
+                    "name": "松岗街道",
+                    "parent": "440306",
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "440306006",
+                    "label": "石岩街道",
+                    "level": null,
+                    "name": "石岩街道",
+                    "parent": "440306",
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "440306009",
+                    "label": "新安街道",
+                    "level": null,
+                    "name": "新安街道",
+                    "parent": "440306",
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "440306016",
+                    "label": "航城街道",
+                    "level": null,
+                    "name": "航城街道",
+                    "parent": "440306",
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "440306017",
+                    "label": "福海街道",
+                    "level": null,
+                    "name": "福海街道",
+                    "parent": "440306",
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "440306018",
+                    "label": "新桥街道",
+                    "level": null,
+                    "name": "新桥街道",
+                    "parent": "440306",
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "440306019",
+                    "label": "燕罗街道",
+                    "level": null,
+                    "name": "燕罗街道",
+                    "parent": "440306",
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                }
+            ]
+        }
+    }
+]

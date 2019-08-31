@@ -1,0 +1,354 @@
+[
+    {
+        "description": "everyOneCanGetProvinces",
+        "request": {
+            "method": "GET",
+            "uri": "/api/common/provinces"
+        },
+        "response": {
+            "status": 200,
+            "json": [
+                {
+                    "value": "340000",
+                    "label": "安徽省",
+                    "level": null,
+                    "name": "安徽省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "110000",
+                    "label": "北京市",
+                    "level": null,
+                    "name": "北京市",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "500000",
+                    "label": "重庆市",
+                    "level": null,
+                    "name": "重庆市",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "350000",
+                    "label": "福建省",
+                    "level": null,
+                    "name": "福建省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "440000",
+                    "label": "广东省",
+                    "level": null,
+                    "name": "广东省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "620000",
+                    "label": "甘肃省",
+                    "level": null,
+                    "name": "甘肃省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "450000",
+                    "label": "广西壮族自治区",
+                    "level": null,
+                    "name": "广西壮族自治区",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "520000",
+                    "label": "贵州省",
+                    "level": null,
+                    "name": "贵州省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "410000",
+                    "label": "河南省",
+                    "level": null,
+                    "name": "河南省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "420000",
+                    "label": "湖北省",
+                    "level": null,
+                    "name": "湖北省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "130000",
+                    "label": "河北省",
+                    "level": null,
+                    "name": "河北省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "460000",
+                    "label": "海南省",
+                    "level": null,
+                    "name": "海南省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "810000",
+                    "label": "香港特别行政区",
+                    "level": null,
+                    "name": "香港特别行政区",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "230000",
+                    "label": "黑龙江省",
+                    "level": null,
+                    "name": "黑龙江省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "430000",
+                    "label": "湖南省",
+                    "level": null,
+                    "name": "湖南省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "220000",
+                    "label": "吉林省",
+                    "level": null,
+                    "name": "吉林省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "320000",
+                    "label": "江苏省",
+                    "level": null,
+                    "name": "江苏省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "360000",
+                    "label": "江西省",
+                    "level": null,
+                    "name": "江西省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "210000",
+                    "label": "辽宁省",
+                    "level": null,
+                    "name": "辽宁省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "820000",
+                    "label": "澳门特别行政区",
+                    "level": null,
+                    "name": "澳门特别行政区",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "150000",
+                    "label": "内蒙古自治区",
+                    "level": null,
+                    "name": "内蒙古自治区",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "640000",
+                    "label": "宁夏回族自治区",
+                    "level": null,
+                    "name": "宁夏回族自治区",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "630000",
+                    "label": "青海省",
+                    "level": null,
+                    "name": "青海省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "510000",
+                    "label": "四川省",
+                    "level": null,
+                    "name": "四川省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "370000",
+                    "label": "山东省",
+                    "level": null,
+                    "name": "山东省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "310000",
+                    "label": "上海市",
+                    "level": null,
+                    "name": "上海市",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "610000",
+                    "label": "陕西省",
+                    "level": null,
+                    "name": "陕西省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "140000",
+                    "label": "山西省",
+                    "level": null,
+                    "name": "山西省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "120000",
+                    "label": "天津市",
+                    "level": null,
+                    "name": "天津市",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "710000",
+                    "label": "台湾省",
+                    "level": null,
+                    "name": "台湾省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "650000",
+                    "label": "新疆维吾尔自治区",
+                    "level": null,
+                    "name": "新疆维吾尔自治区",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "540000",
+                    "label": "西藏自治区",
+                    "level": null,
+                    "name": "西藏自治区",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "530000",
+                    "label": "云南省",
+                    "level": null,
+                    "name": "云南省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                },
+                {
+                    "value": "330000",
+                    "label": "浙江省",
+                    "level": null,
+                    "name": "浙江省",
+                    "parent": null,
+                    "enabled": null,
+                    "isLeaf": null,
+                    "swjgDm": null
+                }
+            ]
+        }
+    }
+]

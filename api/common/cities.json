@@ -1,0 +1,206 @@
+[
+    {
+        "description": "everyOneCanGetCities",
+        "request": {
+            "method": "GET",
+            "uri": "/api/common/cities",
+            "queries": {
+                "baseCode": "GD_PR",
+                "parentCode": "440000"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": [ {
+                "value" : "440100",
+                "label" : "广州市",
+                "level" : "2",
+                "name" : "广州市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "445100",
+                "label" : "潮州市",
+                "level" : "2",
+                "name" : "潮州市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "441900",
+                "label" : "东莞市",
+                "level" : "2",
+                "name" : "东莞市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "440600",
+                "label" : "佛山市",
+                "level" : "2",
+                "name" : "佛山市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "441600",
+                "label" : "河源市",
+                "level" : "2",
+                "name" : "河源市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "440200",
+                "label" : "韶关市",
+                "level" : "2",
+                "name" : "韶关市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "441300",
+                "label" : "惠州市",
+                "level" : "2",
+                "name" : "惠州市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "445200",
+                "label" : "揭阳市",
+                "level" : "2",
+                "name" : "揭阳市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "440700",
+                "label" : "江门市",
+                "level" : "2",
+                "name" : "江门市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "440900",
+                "label" : "茂名市",
+                "level" : "2",
+                "name" : "茂名市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "441400",
+                "label" : "梅州市",
+                "level" : "2",
+                "name" : "梅州市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "441800",
+                "label" : "清远市",
+                "level" : "2",
+                "name" : "清远市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "440500",
+                "label" : "汕头市",
+                "level" : "2",
+                "name" : "汕头市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "441500",
+                "label" : "汕尾市",
+                "level" : "2",
+                "name" : "汕尾市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "440300",
+                "label" : "深圳市",
+                "level" : "2",
+                "name" : "深圳市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "445300",
+                "label" : "云浮市",
+                "level" : "2",
+                "name" : "云浮市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "441700",
+                "label" : "阳江市",
+                "level" : "2",
+                "name" : "阳江市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "440800",
+                "label" : "湛江市",
+                "level" : "2",
+                "name" : "湛江市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "441200",
+                "label" : "肇庆市",
+                "level" : "2",
+                "name" : "肇庆市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "442000",
+                "label" : "中山市",
+                "level" : "2",
+                "name" : "中山市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              }, {
+                "value" : "440400",
+                "label" : "珠海市",
+                "level" : "2",
+                "name" : "珠海市",
+                "parent" : "440000",
+                "enabled" : null,
+                "isLeaf" : null,
+                "swjgDm" : null
+              } ]
+        }
+    }
+]
