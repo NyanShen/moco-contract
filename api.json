@@ -3,7 +3,22 @@
     "include": "api/activity/applications.json"
   },
   {
+    "include": "api/common/areas.json"
+  },
+  {
+    "include": "api/common/cities.json"
+  },
+  {
+    "include": "api/common/provinces.json"
+  },
+  {
+    "include": "api/common/towns.json"
+  },
+  {
     "include": "api/declare/declared-items.json"
+  },
+  {
+    "include": "api/declare/person-infomation.json"
   },
   {
     "include": "api/formItem.json"

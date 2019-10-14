@@ -1,0 +1,89 @@
+[
+    {
+        "description": "everyOneCanGetPeronInformation",
+        "request": {
+            "method": "GET",
+            "uri": "/api/person/information",
+            "queries": {
+                "userId": "u_00000000"
+            }
+        },
+       "response": {
+           "status": 200,
+           "json": {
+            "code" : "SUCCESS",
+            "params" : null,
+            "message" : null,
+            "data" : {
+              "xm" : "NyanShen",
+              "sfzjlxDm" : "201",
+              "sfzjlxMc" : "居民身份证",
+              "sfzjhm" : "440************129",
+              "csdgjhdqszDm" : null,
+              "csdgjhdqMc" : null,
+              "xbDm" : "2",
+              "xbMc" : "女性",
+              "csrq" : "1992-03-13",
+              "gjhdqszDm" : "156",
+              "gjhdqMc" : "中华人民共和国",
+              "mzDm" : "01",
+              "mzMc" : "汉族",
+              "xlDm" : "20",
+              "xlMc" : "大学本科",
+              "nsrsbh" : "440************129",
+              "jwrzsggjDm" : "",
+              "jwrzsggjMc" : null,
+              "dzxx" : [ {
+                "dzlxDm" : "00",
+                "dzlxMc" : "户籍地址",
+                "sjQhdm" : "420000",
+                "sjQhMc" : "湖北省",
+                "dsQhdm" : "420600",
+                "dsQhMc" : "襄阳市",
+                "qxQhdm" : "420606",
+                "qxQhMc" : "樊城区",
+                "xzjdQhdm" : "420606101",
+                "xzjdQhMc" : "太平店镇",
+                "xxdz" : "无",
+                "dzxh" : "200000000110974513"
+              }, {
+                "dzlxDm" : "01",
+                "dzlxMc" : "居住地址",
+                "sjQhdm" : "440000",
+                "sjQhMc" : "广东省",
+                "dsQhdm" : "440300",
+                "dsQhMc" : "深圳市",
+                "qxQhdm" : "440306",
+                "qxQhMc" : "宝安区",
+                "xzjdQhdm" : "440306001",
+                "xzjdQhMc" : "西乡街道",
+                "xxdz" : "沙边新村四巷3号104",
+                "dzxh" : "200000000110977939"
+              }, {
+                "dzlxDm" : "02",
+                "dzlxMc" : "联系地址",
+                "sjQhdm" : "440000",
+                "sjQhMc" : "广东省",
+                "dsQhdm" : "440300",
+                "dsQhMc" : "深圳市",
+                "qxQhdm" : "440306",
+                "qxQhMc" : "宝安区",
+                "xzjdQhdm" : "440306001",
+                "xzjdQhMc" : "西乡街道",
+                "xxdz" : "沙边新村四巷3号104",
+                "dzxh" : "200000000223799306"
+              } ],
+              "sjhm" : "139****4036",
+              "zlzyDm" : null,
+              "zlzyMc" : null,
+              "dlzyDm" : null,
+              "dlzyMc" : null,
+              "dzyx" : "sibaoemailyds@126.com"
+            },
+            "appCodeForEx" : null,
+            "originalErrorCode" : null,
+            "rid" : null
+          }
+       } 
+    }
+]

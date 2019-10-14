@@ -30,6 +30,44 @@
                             "fieldValue": "2017.05-2020.05"
                         }
                     ]
+                },
+                {
+                    "projectNo": "1002",
+                    "projectName": "子女教育",
+                    "year": "2019",
+                    "origin": "本人",
+                    "latestChangeTime": "2019-10-12 13:20",
+                    "projectMap": [
+                        {
+                            "fieldIndex": "1001",
+                            "fieldName": "子女姓名",
+                            "fieldValue": "梦幻"
+                        },
+                        {
+                            "fieldIndex": "1002",
+                            "fieldName": "当前受教育阶段",
+                            "fieldValue": "学前教育阶段"
+                        }
+                    ]
+                },
+                {
+                    "projectNo": "1002",
+                    "projectName": "子女教育",
+                    "year": "2019",
+                    "origin": "本人",
+                    "latestChangeTime": "2019-10-12 13:20",
+                    "projectMap": [
+                        {
+                            "fieldIndex": "1001",
+                            "fieldName": "子女姓名",
+                            "fieldValue": "星辰"
+                        },
+                        {
+                            "fieldIndex": "1002",
+                            "fieldName": "当前受教育阶段",
+                            "fieldValue": "学前教育阶段"
+                        }
+                    ]
                 }
             ]
         }
