@@ -1,0 +1,80 @@
+[
+    {
+        "description": "everyOneCanGetIdentities",
+        "request": {
+            "method": "GET",
+            "uri": "/api/common/identities"
+        },
+        "response": {
+            "status": 200,
+            "json": [
+                {
+                    "value": "201",
+                    "label": "居民身份证",
+                    "level": null,
+                    "name": "居民身份证"
+                },
+                {
+                    "value": "208",
+                    "label": "外国护照",
+                    "level": null,
+                    "name": "外国护照"
+                },
+                {
+                    "value": "210",
+                    "label": "港澳居民来往内地通行证",
+                    "level": null,
+                    "name": "港澳居民来往内地通行证"
+                },
+                {
+                    "value": "213",
+                    "label": "台湾居民来往大陆通行证",
+                    "level": null,
+                    "name": "台湾居民来往大陆通行证"
+                },
+                {
+                    "value": "227",
+                    "label": "中国护照",
+                    "level": null,
+                    "name": "中国护照"
+                },
+                {
+                    "value": "233",
+                    "label": "外国人永久居留身份证（外国人永久居留证）",
+                    "level": null,
+                    "name": "外国人永久居留身份证（外国人永久居留证）"
+                },
+                {
+                    "value": "237",
+                    "label": "中华人民共和国港澳居民居住证",
+                    "level": null,
+                    "name": "中华人民共和国港澳居民居住证"
+                },
+                {
+                    "value": "238",
+                    "label": "中华人民共和国台湾居民居住证",
+                    "level": null,
+                    "name": "中华人民共和国台湾居民居住证"
+                },
+                {
+                    "value": "239",
+                    "label": "中华人民共和国外国人工作许可证（A类）",
+                    "level": null,
+                    "name": "中华人民共和国外国人工作许可证（A类）"
+                },
+                {
+                    "value": "240",
+                    "label": "中华人民共和国外国人工作许可证（B类）",
+                    "level": null,
+                    "name": "中华人民共和国外国人工作许可证（B类）"
+                },
+                {
+                    "value": "241",
+                    "label": "中华人民共和国外国人工作许可证（C类）",
+                    "level": null,
+                    "name": "中华人民共和国外国人工作许可证（C类）"
+                }
+            ]
+        }
+    }
+]
