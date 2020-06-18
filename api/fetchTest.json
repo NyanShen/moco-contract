@@ -1,0 +1,15 @@
+[
+    {
+        "description": "userCanGetVerifyCode",
+        "request": {
+            "method": "GET",
+            "uri": "/api/fetch/test"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "success": true
+            }
+        }
+    }   
+]

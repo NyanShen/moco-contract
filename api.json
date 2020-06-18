@@ -9,6 +9,9 @@
     "include": "api/common/cities.json"
   },
   {
+    "include": "api/common/identities.json"
+  },
+  {
     "include": "api/common/provinces.json"
   },
   {
@@ -19,6 +22,9 @@
   },
   {
     "include": "api/declare/person-infomation.json"
+  },
+  {
+    "include": "api/fetchTest.json"
   },
   {
     "include": "api/formItem.json"
