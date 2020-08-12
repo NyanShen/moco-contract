@@ -24,6 +24,9 @@
     "include": "api/declare/person-infomation.json"
   },
   {
+    "include": "api/fczx/houseList.json"
+  },
+  {
     "include": "api/fetchTest.json"
   },
   {

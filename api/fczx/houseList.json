@@ -1,0 +1,94 @@
+[
+    {
+        "description": "userCanGetVerifyCode",
+        "request": {
+            "method": "GET",
+            "uri": "/house/list"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": {
+                    "gather_regions": [
+                        {
+                            "name": "樊城区",
+                            "longitude": "112.146049",
+                            "latitude": "32.051797",
+                            "count": "2"
+                        },
+                        {
+                            "name": "襄州区",
+                            "longitude": "112.328604",
+                            "latitude": "32.207599",
+                            "count": "7"
+                        },
+                        {
+                            "name": "谷城县",
+                            "longitude": "111.477729",
+                            "latitude": "32.125439",
+                            "count": "3"
+                        },
+                        {
+                            "name": "老河口市",
+                            "longitude": "111.774385",
+                            "latitude": "32.416571",
+                            "count": "3"
+                        },
+                        {
+                            "name": "宜城",
+                            "longitude": "112.264608",
+                            "latitude": "31.726207",
+                            "count": "3"
+                        },
+                        {
+                            "name": "保康",
+                            "longitude": "110.939608",
+                            "latitude": "31.905982",
+                            "count": "3"
+                        },
+                        {
+                            "name": "枣阳",
+                            "longitude": "112.778475",
+                            "latitude": "32.136441",
+                            "count": "3"
+                        }
+                    ],
+                    "label_rows": [
+                        {
+                            "house_id": "1001",
+                            "house_name": "襄阳万达广场",
+                            "longitude": "112.139804",
+                            "latitude": "32.068105",
+                            "price": "80",
+                            "price_unit": "万/套",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_1.jpg",
+                            "tags": "大户型,高层",
+                            "sale_status": "1",
+                            "region_name": "樊城区",
+                            "sub_region_name": "",
+                            "address": "长虹北路9号"
+                        },
+                        {
+                            "house_id": "1002",
+                            "house_name": "襄阳吾悦广场",
+                            "longitude": "112.140691",
+                            "latitude": "32.097841",
+                            "price": "12000",
+                            "price_unit": "元/㎡",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_1.jpg",
+                            "tags": "大户型,小高层",
+                            "sale_status": "1",
+                            "region_name": "樊城区",
+                            "sub_region_name": "",
+                            "address": "团山大道与邓城大道交叉口北150米"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]
