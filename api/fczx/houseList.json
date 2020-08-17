@@ -3,6 +3,213 @@
         "description": "userCanGetVerifyCode",
         "request": {
             "method": "GET",
+            "uri": "/house/list",
+            "queries": {
+                "houseType": "103"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": {
+                    "gather_regions": [
+                        {
+                            "id": "1001",
+                            "name": "樊城区",
+                            "longitude": "112.146049",
+                            "latitude": "32.051797",
+                            "count": "1"
+                        },
+                        {
+                            "id": "1002",
+                            "name": "襄州区",
+                            "longitude": "112.328604",
+                            "latitude": "32.207599",
+                            "count": "2"
+                        },
+                        {
+                            "id": "1007",
+                            "name": "枣阳",
+                            "longitude": "112.778475",
+                            "latitude": "32.136441",
+                            "count": "1"
+                        }
+                    ],
+                    "label_rows": [
+                        {
+                            "house_id": "17001",
+                            "house_name": "金科观天下",
+                            "longitude": "112.774744",
+                            "latitude": "32.129648",
+                            "price": "40",
+                            "price_unit": "万/套",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_6.jpg",
+                            "tags": "小户型,中层",
+                            "sale_status": "1",
+                            "region_name": "枣阳",
+                            "sub_region_name": "金科",
+                            "address": "大西街62附近"
+                        },
+                        {
+                            "house_id": "17002",
+                            "house_name": "御景豪庭",
+                            "longitude": "112.787436",
+                            "latitude": "32.128422",
+                            "price": "7000",
+                            "price_unit": "元/㎡",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_6.jpg",
+                            "tags": "大户型,高层",
+                            "sale_status": "1",
+                            "region_name": "枣阳",
+                            "sub_region_name": "",
+                            "address": "襄阳市枣阳市中兴大道"
+                        },
+                        {
+                            "house_id": "17003",
+                            "house_name": "东园小区",
+                            "longitude": "112.779974",
+                            "latitude": "32.13782",
+                            "price": "6000",
+                            "price_unit": "元/㎡",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_5.jpg",
+                            "tags": "大户型,高层",
+                            "sale_status": "1",
+                            "region_name": "枣阳",
+                            "sub_region_name": "",
+                            "address": "书院街73-1号"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "description": "userCanGetVerifyCode",
+        "request": {
+            "method": "GET",
+            "uri": "/house/list",
+            "queries": {
+                "region": "1007"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": {
+                    "gather_regions": [
+                        {
+                            "id": "1001",
+                            "name": "樊城区",
+                            "longitude": "112.146049",
+                            "latitude": "32.051797",
+                            "count": "1"
+                        },
+                        {
+                            "id": "1002",
+                            "name": "襄州区",
+                            "longitude": "112.328604",
+                            "latitude": "32.207599",
+                            "count": "2"
+                        },
+                        {
+                            "id": "1007",
+                            "name": "枣阳",
+                            "longitude": "112.778475",
+                            "latitude": "32.136441",
+                            "count": "1"
+                        }
+                    ],
+                    "label_rows": [
+                        {
+                            "house_id": "17001",
+                            "house_name": "金科观天下",
+                            "longitude": "112.774744",
+                            "latitude": "32.129648",
+                            "price": "40",
+                            "price_unit": "万/套",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_6.jpg",
+                            "tags": "小户型,中层",
+                            "sale_status": "1",
+                            "region_name": "枣阳",
+                            "sub_region_name": "金科",
+                            "address": "大西街62附近"
+                        },
+                        {
+                            "house_id": "17002",
+                            "house_name": "御景豪庭",
+                            "longitude": "112.787436",
+                            "latitude": "32.128422",
+                            "price": "7000",
+                            "price_unit": "元/㎡",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_6.jpg",
+                            "tags": "大户型,高层",
+                            "sale_status": "1",
+                            "region_name": "枣阳",
+                            "sub_region_name": "",
+                            "address": "襄阳市枣阳市中兴大道"
+                        },
+                        {
+                            "house_id": "17003",
+                            "house_name": "东园小区",
+                            "longitude": "112.779974",
+                            "latitude": "32.13782",
+                            "price": "6000",
+                            "price_unit": "元/㎡",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_5.jpg",
+                            "tags": "大户型,高层",
+                            "sale_status": "1",
+                            "region_name": "枣阳",
+                            "sub_region_name": "",
+                            "address": "书院街73-1号"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "description": "userCanGetVerifyCode",
+        "request": {
+            "method": "GET",
+            "uri": "/house/list",
+            "queries": {
+                "region": "1003"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": {
+                    "gather_regions": [
+                        {
+                            "id": "1003",
+                            "name": "谷城县",
+                            "longitude": "111.477729",
+                            "latitude": "32.125439",
+                            "count": "3"
+                        }
+                    ],
+                    "label_rows": []
+                }
+            }
+        }
+    },
+    {
+        "description": "userCanGetVerifyCode",
+        "request": {
+            "method": "GET",
             "uri": "/house/list"
         },
         "response": {
@@ -13,42 +220,49 @@
                 "data": {
                     "gather_regions": [
                         {
+                            "id": "1001",
                             "name": "樊城区",
                             "longitude": "112.146049",
                             "latitude": "32.051797",
                             "count": "2"
                         },
                         {
+                            "id": "1002",
                             "name": "襄州区",
                             "longitude": "112.328604",
                             "latitude": "32.207599",
                             "count": "7"
                         },
                         {
+                            "id": "1003",
                             "name": "谷城县",
                             "longitude": "111.477729",
                             "latitude": "32.125439",
                             "count": "3"
                         },
                         {
+                            "id": "1004",
                             "name": "老河口市",
                             "longitude": "111.774385",
                             "latitude": "32.416571",
                             "count": "3"
                         },
                         {
+                            "id": "1005",
                             "name": "宜城",
                             "longitude": "112.264608",
                             "latitude": "31.726207",
                             "count": "3"
                         },
                         {
+                            "id": "1006",
                             "name": "保康",
                             "longitude": "110.939608",
                             "latitude": "31.905982",
                             "count": "3"
                         },
                         {
+                            "id": "1007",
                             "name": "枣阳",
                             "longitude": "112.778475",
                             "latitude": "32.136441",
@@ -57,7 +271,7 @@
                     ],
                     "label_rows": [
                         {
-                            "house_id": "1001",
+                            "house_id": "11001",
                             "house_name": "襄阳万达广场",
                             "longitude": "112.139804",
                             "latitude": "32.068105",
@@ -72,7 +286,7 @@
                             "address": "长虹北路9号"
                         },
                         {
-                            "house_id": "1002",
+                            "house_id": "11002",
                             "house_name": "襄阳吾悦广场",
                             "longitude": "112.140691",
                             "latitude": "32.097841",
@@ -85,6 +299,51 @@
                             "region_name": "樊城区",
                             "sub_region_name": "",
                             "address": "团山大道与邓城大道交叉口北150米"
+                        },
+                        {
+                            "house_id": "17001",
+                            "house_name": "金科观天下",
+                            "longitude": "112.774744",
+                            "latitude": "32.129648",
+                            "price": "40",
+                            "price_unit": "万/套",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_6.jpg",
+                            "tags": "小户型,中层",
+                            "sale_status": "1",
+                            "region_name": "枣阳",
+                            "sub_region_name": "金科",
+                            "address": "大西街62附近"
+                        },
+                        {
+                            "house_id": "17002",
+                            "house_name": "御景豪庭",
+                            "longitude": "112.787436",
+                            "latitude": "32.128422",
+                            "price": "7000",
+                            "price_unit": "元/㎡",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_6.jpg",
+                            "tags": "大户型,高层",
+                            "sale_status": "1",
+                            "region_name": "枣阳",
+                            "sub_region_name": "",
+                            "address": "襄阳市枣阳市中兴大道"
+                        },
+                        {
+                            "house_id": "17003",
+                            "house_name": "东园小区",
+                            "longitude": "112.779974",
+                            "latitude": "32.13782",
+                            "price": "6000",
+                            "price_unit": "元/㎡",
+                            "house_link": "http://xiangyang.fczx.com/pages/building/index.html",
+                            "image_path": "http://static.fczx.com/www/assets/images/1400x933_5.jpg",
+                            "tags": "大户型,高层",
+                            "sale_status": "1",
+                            "region_name": "枣阳",
+                            "sub_region_name": "",
+                            "address": "书院街73-1号"
                         }
                     ]
                 }
