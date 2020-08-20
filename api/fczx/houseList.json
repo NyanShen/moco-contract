@@ -3,7 +3,7 @@
         "description": "userCanGetVerifyCode",
         "request": {
             "method": "GET",
-            "uri": "/house/list",
+            "uri": "/api/house/list",
             "queries": {
                 "houseType": "103"
             }
@@ -92,7 +92,7 @@
         "description": "userCanGetVerifyCode",
         "request": {
             "method": "GET",
-            "uri": "/house/list",
+            "uri": "/api/house/list",
             "queries": {
                 "region": "1007"
             }
@@ -181,7 +181,7 @@
         "description": "userCanGetVerifyCode",
         "request": {
             "method": "GET",
-            "uri": "/house/list",
+            "uri": "/api/house/list",
             "queries": {
                 "region": "1003"
             }
@@ -210,7 +210,7 @@
         "description": "userCanGetVerifyCode",
         "request": {
             "method": "GET",
-            "uri": "/house/list"
+            "uri": "/api/house/list"
         },
         "response": {
             "status": 200,

@@ -27,6 +27,12 @@
     "include": "api/fczx/houseList.json"
   },
   {
+    "include": "api/fczx/searchHotList.json"
+  },
+  {
+    "include": "api/fczx/searchKeyList.json"
+  },
+  {
     "include": "api/fetchTest.json"
   },
   {

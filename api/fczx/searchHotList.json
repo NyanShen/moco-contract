@@ -1,0 +1,33 @@
+[
+    {
+        "description": "allcansearchhotlist",
+        "request": {
+            "method": "GET",
+            "uri": "/api/search/hot/list"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": [
+                    {
+                       "id": "1001",
+                       "name": "襄阳恒大翡翠珑庭",
+                       "address": "襄阳松鹤路与韩家台路交汇处"
+                    },
+                    {
+                        "id": "1002",
+                       "name": "襄阳滨江正荣府",
+                       "address": "襄阳红光路与旭东路交汇处"
+                    },
+                    {
+                        "id": "1003",
+                       "name": "国投襄阳院子",
+                       "address": "襄阳市樊城区内环西路与中原西路交汇处"
+                    }
+                ]
+            }
+        }
+    }
+]
