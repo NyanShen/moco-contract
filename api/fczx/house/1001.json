@@ -1,0 +1,52 @@
+[
+    {
+        "description": "gethouseData",
+        "request": {
+            "method": "GET",
+            "uri": "/api/house",
+            "queries": {
+                "id": "1001"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": {
+                    "house_id": "1001",
+                    "house_name": "襄阳恒大翡翠珑庭",
+                    "sale_status": 1,
+                    "house_album": [
+                        {
+                            "id": "album_01",
+                            "name": "视频",
+                            "type": "video",
+                            "images": [
+                                {
+                                    "id": "img_00001",
+                                    "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "album_02",
+                            "name": "图片",
+                            "type": "image",
+                            "images": [
+                                {
+                                    "id": "img_00002",
+                                    "image_path": "http://192.168.2.248/assets/images/1400x933_3.jpg"
+                                },
+                                {
+                                    "id": "img_00003",
+                                    "image_path": "http://192.168.2.248/assets/images/1400x933_5.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]
