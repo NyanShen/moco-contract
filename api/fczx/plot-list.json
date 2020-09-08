@@ -1,0 +1,51 @@
+[
+    {
+        "description": "userCanGetVerifyCode",
+        "request": {
+            "method": "GET",
+            "uri": "/api/plot/list",
+            "queries": {
+                "kw": "h"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": [
+                    {
+                        "id": "1001",
+                        "name": "华光小区市政家属院"
+                    },
+                    {
+                        "id": "1002",
+                        "name": "汉水华城"
+                    },
+                    {
+                        "id": "1003",
+                        "name": "红星国际房产"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "description": "userCanGetVerifyCode",
+        "request": {
+            "method": "GET",
+            "uri": "/api/plot/list",
+            "queries": {
+                "kw": "w"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": []
+            }
+        }
+    }
+]
