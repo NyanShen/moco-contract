@@ -16,15 +16,45 @@
                 "data": [
                     {
                         "id": "1001",
-                        "name": "华光小区市政家属院"
+                        "name": "华光小区市政家属院",
+                        "area": "樊城区",
+                        "address": "樊西新区万洲大道和产业一路交汇处"
                     },
                     {
                         "id": "1002",
-                        "name": "汉水华城"
+                        "name": "汉水华城",
+                        "area": "樊城区",
+                        "address": "襄阳市樊城区沿江大道特1号"
                     },
                     {
                         "id": "1003",
-                        "name": "红星国际房产"
+                        "name": "红星国际房产",
+                        "area": "襄州区",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "description": "userCanGetVerifyCode",
+        "request": {
+            "method": "GET",
+            "uri": "/api/plot/list",
+            "queries": {
+                "kw": "汉水华"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": [
+                    {
+                        "id": "1002",
+                        "name": "汉水华城",
+                        "area": "樊城区"
                     }
                 ]
             }
