@@ -39,6 +39,9 @@
     "include": "api/fczx/searchKeyList.json"
   },
   {
+    "include": "api/fczx/user/house.json"
+  },
+  {
     "include": "api/fetchTest.json"
   },
   {

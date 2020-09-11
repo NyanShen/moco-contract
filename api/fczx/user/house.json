@@ -1,0 +1,78 @@
+[
+    {
+        "description": "userCanGetVerifyCode",
+        "request": {
+            "method": "GET",
+            "uri": "/api/user/house",
+            "queries": {
+                "type": "rent"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": [
+                    {
+                        "id": "1001",
+                        "name": "华光小区市政家属院",
+                        "area": "樊城区",
+                        "address": "樊西新区万洲大道和产业一路交汇处",
+                        "title": "房源标题:春园路小清河旁天润8号公馆32万买小两室现房成熟商圈白菜价",
+                        "price": "41",
+                        "room": "2",
+                        "office":"1",
+                        "toliet": "1",
+                        "building_area": "89",
+                        "modified": "2020-09-12 11:12:32"
+                    },
+                    {
+                        "id": "1002",
+                        "name": "汉水华城",
+                        "area": "樊城区",
+                        "address": "襄阳市樊城区沿江大道特1号",
+                        "title": "房源标题:春园路小清河旁天润8号公馆32万买小两室现房成熟商圈白菜价",
+                        "price": "41",
+                        "room": "2",
+                        "office":"1",
+                        "toliet": "1",
+                        "building_area": "89",
+                        "modified": "2020-09-12 11:12:32"
+                    },
+                    {
+                        "id": "1003",
+                        "name": "红星国际房产",
+                        "area": "襄州区",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)",
+                        "title": "房源标题:春园路小清河旁天润8号公馆32万买小两室现房成熟商圈白菜价",
+                        "price": "41",
+                        "room": "2",
+                        "office":"1",
+                        "toliet": "1",
+                        "building_area": "89",
+                        "modified": "2020-09-12 11:12:32"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "description": "userCanGetVerifyCode",
+        "request": {
+            "method": "GET",
+            "uri": "/api/user/house",
+            "queries": {
+                "type": "esf"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": []
+            }
+        }
+    }
+]
