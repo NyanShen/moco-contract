@@ -5,7 +5,7 @@
             "method": "GET",
             "uri": "/api/plot/list",
             "queries": {
-                "kw": "h"
+                "title": "h"
             }
         },
         "response": {
@@ -16,20 +16,106 @@
                 "data": [
                     {
                         "id": "1001",
-                        "name": "华光小区市政家属院",
-                        "area": "樊城区",
+                        "title": "华光小区市政家属院",
+                        "fang_area_id":"420606",
+                        "building_area": "樊城区",
+                        "area_id": "420600",
                         "address": "樊西新区万洲大道和产业一路交汇处"
                     },
                     {
                         "id": "1002",
-                        "name": "汉水华城",
-                        "area": "樊城区",
+                        "title": "汉水华城",
+                        "fang_area_id":"420606",
+                        "building_area": "樊城区",
+                        "area_id": "420600",
                         "address": "襄阳市樊城区沿江大道特1号"
                     },
                     {
                         "id": "1003",
-                        "name": "红星国际房产",
-                        "area": "襄州区",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    },
+                    {
+                        "id": "1003",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    },
+                    {
+                        "id": "1003",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    },
+                    {
+                        "id": "1003",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    },
+                    {
+                        "id": "1003",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    },
+                    {
+                        "id": "1003",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    },
+                    {
+                        "id": "1003",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    },
+                    {
+                        "id": "1003",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    },
+                    {
+                        "id": "1003",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    },
+                    {
+                        "id": "1003",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
+                        "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
+                    },
+                    {
+                        "id": "1003",
+                        "title": "红星国际房产",
+                        "fang_area_id":"420606",
+                        "building_area": "襄州区",
+                        "area_id": "420600",
                         "address": "邓城大道与樊宛路交汇处(民发天地东侧)"
                     }
                 ]
@@ -42,7 +128,7 @@
             "method": "GET",
             "uri": "/api/plot/list",
             "queries": {
-                "kw": "汉水华"
+                "title": "汉水华"
             }
         },
         "response": {
@@ -53,8 +139,9 @@
                 "data": [
                     {
                         "id": "1002",
-                        "name": "汉水华城",
-                        "area": "樊城区"
+                        "title": "汉水华城",
+                        "fang_area_id":"420606",
+                        "building_area": "樊城区"
                     }
                 ]
             }
@@ -66,7 +153,7 @@
             "method": "GET",
             "uri": "/api/plot/list",
             "queries": {
-                "kw": "w"
+                "title": "w"
             }
         },
         "response": {
