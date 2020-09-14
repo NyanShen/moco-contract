@@ -27,6 +27,12 @@
     "include": "api/fczx/house/1001.json"
   },
   {
+    "include": "api/fczx/house/condition.json"
+  },
+  {
+    "include": "api/fczx/house/new.json"
+  },
+  {
     "include": "api/fczx/houseList.json"
   },
   {

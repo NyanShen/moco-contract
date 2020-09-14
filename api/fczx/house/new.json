@@ -1,0 +1,158 @@
+[
+    {
+        "description": "gethouseData",
+        "request": {
+            "method": "GET",
+            "uri": "/api/house/new"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": [
+                    {
+                        "id": "1001",
+                        "house_name": "襄阳府邸",
+                        "building_area": "120",
+                        "price": "1200",
+                        "price_type": "1",
+                        "sale_status": "1",
+                        "address":"",
+                        "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                        "area": {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "樊城区",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    },
+                    {
+                        "id": "1002",
+                        "house_name": "襄阳吾悦广场",
+                        "building_area": "120",
+                        "price": "45",
+                        "price_type": "2",
+                        "sale_status": "2",
+                        "address":"",
+                        "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                        "area": {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "高新区",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    },
+                    {
+                        "id": "1003",
+                        "house_name": "绿地襄阳城际空间站",
+                        "building_area": "120",
+                        "price": "7500",
+                        "price_type": "1",
+                        "sale_status": "2",
+                        "address":"",
+                        "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                        "area": {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "东津",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    },
+                    {
+                        "id": "1004",
+                        "house_name": "融创滨江一号",
+                        "building_area": "120",
+                        "price": "10500",
+                        "price_type": "1",
+                        "sale_status": "3",
+                        "address":"",
+                        "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                        "area": {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "襄州区",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    },
+                    {
+                        "id": "1005",
+                        "house_name": "和兴清河城",
+                        "building_area": "120",
+                        "price": "4500",
+                        "price_type": "1",
+                        "sale_status": "3",
+                        "address":"",
+                        "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                        "area": {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "襄州区",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    },
+                    {
+                        "id": "1006",
+                        "house_name": "襄阳国投",
+                        "building_area": "110",
+                        "price": "43",
+                        "price_type": "2",
+                        "sale_status": "1",
+                        "address":"",
+                        "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                        "area": {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "樊城区",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    },
+                    {
+                        "id": "1007",
+                        "house_name": "襄阳国投",
+                        "building_area": "110",
+                        "price": "43",
+                        "price_type": "2",
+                        "sale_status": "1",
+                        "address":"",
+                        "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                        "area": {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "樊城区",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    }
+                ]
+            }
+        }
+    }
+]
