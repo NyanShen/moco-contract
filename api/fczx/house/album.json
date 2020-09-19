@@ -1,0 +1,359 @@
+[
+    {
+        "description": "gethouseAlbum",
+        "request": {
+            "method": "GET",
+            "uri": "/api/house/all-image",
+            "queries": {
+                "fang_house_id": "1000006"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": [
+                    {
+                        "id": "1000000",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "fang_house_id": "1000006",
+                        "name": "配套图",
+                        "sort": "0",
+                        "image_count": "16",
+                        "face_id": "1000035",
+                        "face_path": "",
+                        "status": "1",
+                        "type": "1",
+                        "created": "1594622193",
+                        "modified": "1595813378",
+                        "fangHouseImage": [
+                            {
+                                "id": "1000034",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "微信图片_20200417095057",
+                                "image_path": "http://192.168.2.248/assets/images/house_type.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1595495559",
+                                "modified": "1595495559"
+                            },
+                            {
+                                "id": "1000035",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "微信图片_20200417095100",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_7.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1595495559",
+                                "modified": "1595495559"
+                            },
+                            {
+                                "id": "1000038",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "微信图片_20200417095054",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440451",
+                                "modified": "1596440451"
+                            },
+                            {
+                                "id": "1000039",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "微信图片_20200417095057",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_5.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440451",
+                                "modified": "1596440451"
+                            },
+                            {
+                                "id": "1000040",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "微信图片_20200417095100",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440451",
+                                "modified": "1596440451"
+                            },
+                            {
+                                "id": "1000041",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "微信图片_20200417095048",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_7.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440451",
+                                "modified": "1596440451"
+                            },
+                            {
+                                "id": "1000042",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "微信图片_20200417095043",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440451",
+                                "modified": "1596440451"
+                            },
+                            {
+                                "id": "1000043",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "微信图片_20200417095051",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_7.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440451",
+                                "modified": "1596440451"
+                            },
+                            {
+                                "id": "1000044",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "微信图片_20200417095105",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440451",
+                                "modified": "1596440451"
+                            },
+                            {
+                                "id": "1000045",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "微信图片_20200417095103",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_7.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440452",
+                                "modified": "1596440452"
+                            },
+                            {
+                                "id": "1000050",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "860x10000 (1)",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440500",
+                                "modified": "1596440500"
+                            },
+                            {
+                                "id": "1000051",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "860x10000 (3)",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_7.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440500",
+                                "modified": "1596440500"
+                            },
+                            {
+                                "id": "1000052",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "860x10000 (4)",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440500",
+                                "modified": "1596440500"
+                            },
+                            {
+                                "id": "1000053",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "860x10000 (2)",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_7.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440500",
+                                "modified": "1596440500"
+                            },
+                            {
+                                "id": "1000054",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "860x10000 (5)",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440500",
+                                "modified": "1596440500"
+                            },
+                            {
+                                "id": "1000055",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000000",
+                                "name": "860x10000",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_7.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440500",
+                                "modified": "1596440500"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "1000001",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "fang_house_id": "1000006",
+                        "name": "进度图",
+                        "sort": "0",
+                        "image_count": "2",
+                        "face_id": "1000056",
+                        "face_path": "",
+                        "status": "1",
+                        "type": "1",
+                        "created": "1594622193",
+                        "modified": "1596440855",
+                        "fangHouseImage": [
+                            {
+                                "id": "1000056",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000001",
+                                "name": "860x10000 (3)",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440849",
+                                "modified": "1596440849"
+                            },
+                            {
+                                "id": "1000057",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000001",
+                                "name": "860x10000",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440849",
+                                "modified": "1596440849"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "1000004",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "fang_house_id": "1000006",
+                        "name": "实景图",
+                        "sort": "0",
+                        "image_count": "4",
+                        "face_id": "1000049",
+                        "face_path": "",
+                        "status": "1",
+                        "type": "1",
+                        "created": "1594622193",
+                        "modified": "1596440476",
+                        "fangHouseImage": [
+                            {
+                                "id": "1000046",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000004",
+                                "name": "860x10000 (6)",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440468",
+                                "modified": "1596440468"
+                            },
+                            {
+                                "id": "1000047",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000004",
+                                "name": "860x10000",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440468",
+                                "modified": "1596440468"
+                            },
+                            {
+                                "id": "1000048",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000004",
+                                "name": "860x10000 (1)",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_8.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440468",
+                                "modified": "1596440468"
+                            },
+                            {
+                                "id": "1000049",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "fang_house_albums_id": "1000004",
+                                "name": "860x10000 (2)",
+                                "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                                "video_path": "",
+                                "sort": "0",
+                                "created": "1596440468",
+                                "modified": "1596440468"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+]

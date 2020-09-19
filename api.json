@@ -27,6 +27,9 @@
     "include": "api/fczx/house/1001.json"
   },
   {
+    "include": "api/fczx/house/album.json"
+  },
+  {
     "include": "api/fczx/house/condition.json"
   },
   {

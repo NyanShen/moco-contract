@@ -3,6 +3,85 @@
         "description": "gethouseData",
         "request": {
             "method": "GET",
+            "uri": "/api/house/new",
+            "queries": {
+                "region": "1001"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": [
+                    {
+                        "id": "1001",
+                        "house_name": "襄阳恒大翡翠珑庭",
+                        "building_area": "120",
+                        "price": "1200",
+                        "price_type": "1",
+                        "sale_status": "1",
+                        "address":"",
+                        "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                        "area": {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "樊城区",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    },
+                    {
+                        "id": "1006",
+                        "house_name": "襄阳国投",
+                        "building_area": "110",
+                        "price": "43",
+                        "price_type": "2",
+                        "sale_status": "1",
+                        "address":"",
+                        "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                        "area": {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "樊城区",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    },
+                    {
+                        "id": "1007",
+                        "house_name": "襄阳国投",
+                        "building_area": "110",
+                        "price": "43",
+                        "price_type": "2",
+                        "sale_status": "1",
+                        "address":"",
+                        "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                        "area": {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "樊城区",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "description": "gethouseData",
+        "request": {
+            "method": "GET",
             "uri": "/api/house/new"
         },
         "response": {
@@ -13,7 +92,7 @@
                 "data": [
                     {
                         "id": "1001",
-                        "house_name": "襄阳府邸",
+                        "house_name": "襄阳恒大翡翠珑庭",
                         "building_area": "120",
                         "price": "1200",
                         "price_type": "1",
