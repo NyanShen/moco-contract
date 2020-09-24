@@ -16,6 +16,8 @@
                 "data": {
                     "house_id": "1001",
                     "house_name": "襄阳恒大翡翠珑庭",
+                    "lat": "32.093051",
+                    "lng": "112.133937",
                     "sale_status": 1,
                     "house_album": [
                         {

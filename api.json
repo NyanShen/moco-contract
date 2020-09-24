@@ -24,6 +24,12 @@
     "include": "api/declare/person-infomation.json"
   },
   {
+    "include": "api/fczx/cityList.json"
+  },
+  {
+    "include": "api/fczx/esfList.json"
+  },
+  {
     "include": "api/fczx/house/1001.json"
   },
   {
@@ -34,6 +40,12 @@
   },
   {
     "include": "api/fczx/house/new.json"
+  },
+  {
+    "include": "api/fczx/house/sand.json"
+  },
+  {
+    "include": "api/fczx/house/surround.json"
   },
   {
     "include": "api/fczx/houseList.json"

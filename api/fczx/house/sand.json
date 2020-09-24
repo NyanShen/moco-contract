@@ -1,0 +1,285 @@
+[
+    {
+        "description": "getHouseSand",
+        "request": {
+            "method": "GET",
+            "uri": "/api/house/sand",
+            "queries": {
+                "id": "1001"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": {
+                    "code": 1,
+                    "message": "ok",
+                    "status": 200,
+                    "data": {
+                        "fang_sand_pic": "http://192.168.2.248/assets/images/sand_900x600c.jpg",
+                        "sandBuilding": [
+                            {
+                                "style": "top:448px;left:471.422px",
+                                "id": "167",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "1#",
+                                "plan_households": "1800",
+                                "storey_height": "32",
+                                "elevator_number": "2",
+                                "elevator_households": "3",
+                                "open_time": "1593648000",
+                                "deliver_time": "1625270400",
+                                "sale_status": "3",
+                                "created": "1593680871",
+                                "modified": "1596188233"
+                            },
+                            {
+                                "style": "top:139px;left:500px",
+                                "id": "169",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "3#",
+                                "plan_households": "1800",
+                                "storey_height": "32",
+                                "elevator_number": "3",
+                                "elevator_households": "3",
+                                "open_time": "0",
+                                "deliver_time": "0",
+                                "sale_status": "1",
+                                "created": "1593680871",
+                                "modified": "1596188239"
+                            },
+                            {
+                                "style": "top:222px;left:557px",
+                                "id": "170",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "4#",
+                                "plan_households": "1800",
+                                "storey_height": "32",
+                                "elevator_number": "4",
+                                "elevator_households": "4",
+                                "open_time": "0",
+                                "deliver_time": "0",
+                                "sale_status": "3",
+                                "created": "1593680871",
+                                "modified": "1596188236"
+                            },
+                            {
+                                "style": "top:354px;left:511.047px",
+                                "id": "171",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "5#",
+                                "plan_households": "1800",
+                                "storey_height": "32",
+                                "elevator_number": "2",
+                                "elevator_households": "4",
+                                "open_time": "0",
+                                "deliver_time": "0",
+                                "sale_status": "2",
+                                "created": "1593680871",
+                                "modified": "1593680853"
+                            },
+                            {
+                                "style": "top:265px;left:653.047px",
+                                "id": "172",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "6#",
+                                "plan_households": "1800",
+                                "storey_height": "32",
+                                "elevator_number": "2",
+                                "elevator_households": "4",
+                                "open_time": "0",
+                                "deliver_time": "0",
+                                "sale_status": "2",
+                                "created": "1593680871",
+                                "modified": "1593680853"
+                            },
+                            {
+                                "style": "top:145px;left:243px",
+                                "id": "173",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "7#",
+                                "plan_households": "1800",
+                                "storey_height": "32",
+                                "elevator_number": "2",
+                                "elevator_households": "4",
+                                "open_time": "0",
+                                "deliver_time": "0",
+                                "sale_status": "2",
+                                "created": "1593680871",
+                                "modified": "1593680853"
+                            },
+                            {
+                                "style": "top:64px;left:428.422px",
+                                "id": "174",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "8#",
+                                "plan_households": "1800",
+                                "storey_height": "32",
+                                "elevator_number": "2",
+                                "elevator_households": "4",
+                                "open_time": "0",
+                                "deliver_time": "0",
+                                "sale_status": "1",
+                                "created": "1593680871",
+                                "modified": "1596188241"
+                            },
+                            {
+                                "style": "top:270px;left:306px",
+                                "id": "175",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "9#",
+                                "plan_households": "1800",
+                                "storey_height": "32",
+                                "elevator_number": "2",
+                                "elevator_households": "4",
+                                "open_time": "0",
+                                "deliver_time": "0",
+                                "sale_status": "2",
+                                "created": "1593680871",
+                                "modified": "1593680853"
+                            },
+                            {
+                                "style": "top:338px;left:628.672px",
+                                "id": "177",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "11#",
+                                "plan_households": "1800",
+                                "storey_height": "32",
+                                "elevator_number": "2",
+                                "elevator_households": "4",
+                                "open_time": "0",
+                                "deliver_time": "0",
+                                "sale_status": "2",
+                                "created": "1593680871",
+                                "modified": "1593680853"
+                            },
+                            {
+                                "style": "top:342px;left:380.422px",
+                                "id": "199",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "2#",
+                                "plan_households": "",
+                                "storey_height": "",
+                                "elevator_number": "2",
+                                "elevator_households": "2",
+                                "open_time": "0",
+                                "deliver_time": "0",
+                                "sale_status": "2",
+                                "created": "1594264131",
+                                "modified": "1594264131"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    {
+        "description": "getHouseSandRoom",
+        "request": {
+            "method": "GET",
+            "uri": "/api/house/sand/room",
+            "queries": {
+                "id": "167"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": {
+                    "code": 1,
+                    "message": "ok",
+                    "status": 200,
+                    "data": [
+                        {
+                            "id": "1000005",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "fang_house_id": "194",
+                            "fang_house_building_id": "167",
+                            "fang_house_building_name": "1#",
+                            "fang_house_room_id": "167",
+                            "fang_house_room_name": "CCC",
+                            "fangHouseBuildingRoom": {
+                                "id": "167",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "CCC",
+                                "description": "右侧广告",
+                                "image_path": "http://static.fczx.com/a/202007/03/l/u/4cf66a886abddbf275cc063108ae0250.jpg",
+                                "room": "3",
+                                "office": "1",
+                                "kitchen": "1",
+                                "toilet": "2",
+                                "building_area": "120",
+                                "shared_area": "30",
+                                "inner_area": "0",
+                                "price": "20000",
+                                "price_type": "1",
+                                "sale_status": "1",
+                                "created": "1593758651",
+                                "modified": "1593761513"
+                            }
+                        },
+                        {
+                            "id": "1000006",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "fang_house_id": "194",
+                            "fang_house_building_id": "167",
+                            "fang_house_building_name": "1#",
+                            "fang_house_room_id": "169",
+                            "fang_house_room_name": "C3",
+                            "fangHouseBuildingRoom": {
+                                "id": "169",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "194",
+                                "name": "C3",
+                                "description": "",
+                                "image_path": "http://static.fczx.com/a/202007/03/e/y/8010c4be08019e566a2968ba9d67541a.jpg",
+                                "room": "2",
+                                "office": "1",
+                                "kitchen": "1",
+                                "toilet": "1",
+                                "building_area": "111",
+                                "shared_area": "11",
+                                "inner_area": "0",
+                                "price": "8000",
+                                "price_type": "1",
+                                "sale_status": "2",
+                                "created": "1593761084",
+                                "modified": "1593761089"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]

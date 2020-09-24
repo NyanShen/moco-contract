@@ -1,0 +1,82 @@
+[
+    {
+        "description": "gethouseData",
+        "request": {
+            "method": "GET",
+            "uri": "/api/house/surround",
+            "queries": {
+                "type": "交通"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": [
+                    {
+                        "id": "10000001",
+                        "lat": "32.091755",
+                        "lng": "112.135381",
+                        "address": "湖北省襄阳市樊城区团山大道与邓城大道交叉口北150米",
+                        "title": "吾悦公交站",
+                        "telephone": "",
+                        "distance": 215.21
+                    },
+                    {
+                        "id": "10000002",
+                        "lat": "32.090074",
+                        "lng": "112.135059",
+                        "address": "湖北省襄阳市樊城区207国道(旧)",
+                        "title": "公交站",
+                        "telephone": "",
+                        "distance": 215.21
+                    },
+                    {
+                        "id": "10000003",
+                        "lat": "32.093982",
+                        "lng": "112.137161",
+                        "address": "湖北省襄阳市樊城区团山大道与邓城大道交叉口北150米",
+                        "title": "襄阳吾悦广场送车点",
+                        "telephone": "",
+                        "distance": 215.21
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "description": "gethouseData",
+        "request": {
+            "method": "GET",
+            "uri": "/api/house/surround"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "data": [
+                    {
+                        "id": "10000001",
+                        "lat": "32.095273",
+                        "lng": "112.136486",
+                        "address": "湖北省襄阳市樊城区团山大道16号",
+                        "title": "小黄超市",
+                        "telephone": "",
+                        "distance": 215.21
+                    },
+                    {
+                        "id": "10000002",
+                        "lat": "32.094209",
+                        "lng": "112.137290",
+                        "address": "湖北省襄阳市樊城区207国道(旧)",
+                        "title": "万客超市",
+                        "telephone": "",
+                        "distance": 215.21
+                    }
+                ]
+            }
+        }
+    }
+]
