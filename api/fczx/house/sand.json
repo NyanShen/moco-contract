@@ -18,7 +18,7 @@
                     "message": "ok",
                     "status": 200,
                     "data": {
-                        "fang_sand_pic": "http://192.168.2.248/assets/images/sand_900x600c.jpg",
+                        "fang_sand_pic": "http://192.168.2.248/assets/images/sand_pic.png",
                         "sandBuilding": [
                             {
                                 "style": "top:448px;left:471.422px",

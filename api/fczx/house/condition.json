@@ -3,10 +3,7 @@
         "description": "gethouseData",
         "request": {
             "method": "GET",
-            "uri": "/api/house/condition",
-            "queries": {
-                "type": "newHouse"
-            }
+            "uri": "/api/house/attr"
         },
         "response": {
             "status": 200,
@@ -15,11 +12,6 @@
                 "message": "ok",
                 "data": {
                     "region": [
-                        {
-                            "id": "all000",
-                            "name": "不限",
-                            "value": ""
-                        },
                         {
                             "id": "1001",
                             "name": "樊城区",
@@ -57,11 +49,6 @@
                         }
                     ],
                     "unit_price": [
-                        {
-                            "id": "all000",
-                            "name": "不限",
-                            "value": ""
-                        },
                         {
                             "id": "001",
                             "name": "4000元/m²以下",
@@ -105,11 +92,6 @@
                     ],
                     "total_price": [
                         {
-                            "id": "all000",
-                            "name": "不限",
-                            "value": ""
-                        },
-                        {
                             "id": "001",
                             "name": "20万以下",
                             "value": "20"
@@ -131,11 +113,6 @@
                         }
                     ],
                     "house_type": [
-                        {
-                            "id": "all000",
-                            "name": "不限",
-                            "value": ""
-                        },
                         {
                             "id": "001",
                             "name": "一居",
@@ -243,6 +220,654 @@
                             "id": "002",
                             "name": "低总价",
                             "value": "低总价"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "description": "gethouseData",
+        "request": {
+            "method": "GET",
+            "uri": "/house/attr"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "areaList": [
+                        {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "枣阳市",
+                            "longitude": "112.778471",
+                            "latitude": "32.13473",
+                            "sort": "13",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        },
+                        {
+                            "id": "420602",
+                            "pid": "420600",
+                            "name": "襄城区",
+                            "longitude": "112.140572",
+                            "latitude": "32.016175",
+                            "sort": "0",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        },
+                        {
+                            "id": "420606",
+                            "pid": "420600",
+                            "name": "樊城区",
+                            "longitude": "112.142599",
+                            "latitude": "32.050572",
+                            "sort": "0",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        },
+                        {
+                            "id": "420607",
+                            "pid": "420600",
+                            "name": "襄州区",
+                            "longitude": "112.218434",
+                            "latitude": "32.093376",
+                            "sort": "0",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        },
+                        {
+                            "id": "420624",
+                            "pid": "420600",
+                            "name": "南漳县",
+                            "longitude": "111.845386",
+                            "latitude": "31.78113",
+                            "sort": "0",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        },
+                        {
+                            "id": "420625",
+                            "pid": "420600",
+                            "name": "谷城县",
+                            "longitude": "111.659576",
+                            "latitude": "32.268983",
+                            "sort": "0",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        },
+                        {
+                            "id": "420626",
+                            "pid": "420600",
+                            "name": "保康县",
+                            "longitude": "111.267441",
+                            "latitude": "31.883847",
+                            "sort": "0",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        },
+                        {
+                            "id": "420682",
+                            "pid": "420600",
+                            "name": "老河口市",
+                            "longitude": "111.681556",
+                            "latitude": "32.39246",
+                            "sort": "0",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        },
+                        {
+                            "id": "420684",
+                            "pid": "420600",
+                            "name": "宜城市",
+                            "longitude": "112.264611",
+                            "latitude": "31.72547",
+                            "sort": "0",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": ""
+                        }
+                    ],
+                    "room": [
+                        {
+                            "id": "184",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "一室",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1599450121"
+                        },
+                        {
+                            "id": "185",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "二室",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "186",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "三室",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "187",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "四室",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "188",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "五室及以上",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        }
+                    ],
+                    "propertyType": [
+                        {
+                            "id": "146",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "住宅",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1599450109"
+                        },
+                        {
+                            "id": "147",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "别墅",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1599449497"
+                        },
+                        {
+                            "id": "148",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "商铺",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "149",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "写字楼",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        }
+                    ],
+                    "projectFeature": [
+                        {
+                            "id": "125",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "刚需房",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1599450112"
+                        },
+                        {
+                            "id": "126",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "精品豪宅",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        }
+                    ],
+                    "renovationStatus": [
+                        {
+                            "id": "167",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "毛坯",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1600761690"
+                        },
+                        {
+                            "id": "168",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "简易装修",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "169",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "中档装修",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "170",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "高档装修",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "171",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "豪华装修",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        }
+                    ],
+                    "fangDirectionType": [
+                        {
+                            "id": "198",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "东",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1599450116"
+                        },
+                        {
+                            "id": "199",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "南",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "200",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "西",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "201",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "北",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "202",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "东南",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "203",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "东北",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "204",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "西南",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "205",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "西北",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        }
+                    ],
+                    "fangBuildingType": [
+                        {
+                            "id": "146",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "低层",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1599450107"
+                        },
+                        {
+                            "id": "147",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "多层",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "148",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "中高层",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "149",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "高层",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        }
+                    ],
+                    "totalPrice": [
+                        {
+                            "id": "171",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "30万以下",
+                            "min": "0",
+                            "max": "300000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1599468105"
+                        },
+                        {
+                            "id": "172",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "30-50万",
+                            "min": "300000",
+                            "max": "500000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "173",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "50-80万",
+                            "min": "500000",
+                            "max": "800000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "174",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "80-120万",
+                            "min": "800000",
+                            "max": "1200000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "175",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "120-160万",
+                            "min": "1200000",
+                            "max": "1600000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "176",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "160万以上",
+                            "min": "1600000",
+                            "max": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        }
+                    ],
+                    "unitPrice": [
+                        {
+                            "id": "159",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "4千以下",
+                            "min": "0",
+                            "max": "4000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1599450285"
+                        },
+                        {
+                            "id": "160",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "4-6千",
+                            "min": "4000",
+                            "max": "6000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "161",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "6-8千",
+                            "min": "6000",
+                            "max": "8000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "162",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "8-10千",
+                            "min": "8000",
+                            "max": "10000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "163",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "一万以上",
+                            "min": "10000",
+                            "max": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        }
+                    ],
+                    "rentPrice": [
+                        {
+                            "id": "159",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "1千以下",
+                            "min": "0",
+                            "max": "1000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1600075716"
+                        },
+                        {
+                            "id": "1000030",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "1-3千",
+                            "min": "1000",
+                            "max": "3000",
+                            "status": "1",
+                            "created": "1600221310",
+                            "modified": "1600221310"
+                        },
+                        {
+                            "id": "160",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "3-6千",
+                            "min": "3000",
+                            "max": "6000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1600221322"
+                        },
+                        {
+                            "id": "161",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "6-10千",
+                            "min": "6000",
+                            "max": "10000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1600221334"
+                        },
+                        {
+                            "id": "163",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "一万以上",
+                            "min": "10000",
+                            "max": "0",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        }
+                    ],
+                    "fangMatching": [
+                        {
+                            "id": "1",
+                            "name": "床",
+                            "icon": "&#xe6a6;"
+                        },
+                        {
+                            "id": "2",
+                            "name": "宽带",
+                            "icon": " &#xe601;"
+                        },
+                        {
+                            "id": "3",
+                            "name": "电视",
+                            "icon": " &#xe691;"
+                        },
+                        {
+                            "id": "4",
+                            "name": "冰箱",
+                            "icon": " &#xe625;"
+                        },
+                        {
+                            "id": "5",
+                            "name": "洗衣机",
+                            "icon": " &#xec78;"
+                        },
+                        {
+                            "id": "6",
+                            "name": "空调",
+                            "icon": " &#xe651;"
+                        },
+                        {
+                            "id": "7",
+                            "name": "热水器",
+                            "icon": " &#xe6a6;"
+                        },
+                        {
+                            "id": "8",
+                            "name": "暖气",
+                            "icon": " &#xe636;"
+                        },
+                        {
+                            "id": "9",
+                            "name": "热水器",
+                            "icon": " &#xe6fc;"
                         }
                     ]
                 }
