@@ -36,6 +36,9 @@
     "include": "api/fczx/house/album.json"
   },
   {
+    "include": "api/fczx/house/comment.json"
+  },
+  {
     "include": "api/fczx/house/condition.json"
   },
   {

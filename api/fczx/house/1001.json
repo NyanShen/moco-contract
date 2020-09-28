@@ -3,7 +3,7 @@
         "description": "gethouseData",
         "request": {
             "method": "GET",
-            "uri": "/api/house",
+            "uri": "/house/get/text",
             "queries": {
                 "id": "1001"
             }
@@ -77,12 +77,12 @@
                     "longitude": "112.139804",
                     "latitude": "32.068105",
                     "fang_area_id": "420683",
-                    "fang_building_type": "[\"146\"]",
+                    "fang_building_type": "[\"146\",\"147\"]",
                     "fang_direction_type": "[\"198\"]",
-                    "fang_project_feature": "[\"125\"]",
+                    "fang_project_feature": "[\"125\",\"126\"]",
                     "fang_property_type": "[\"146\",\"147\"]",
-                    "fang_renovation_status": "[\"167\"]",
-                    "fang_room_type": "[\"184\"]",
+                    "fang_renovation_status": "[\"167\",\"168\"]",
+                    "fang_room_type": "[\"184\",\"185\"]",
                     "fang_subway": "",
                     "fang_sand_pic": "http://static.fczx.com/a/202007/27/e/a/01235441e9cd75a01cf9b256693f113d.png",
                     "fang_sand_status": "1",
@@ -103,7 +103,7 @@
                     "comment_num": "18",
                     "image_comment_num": "4",
                     "created": "1594622192",
-                    "modified": "1601021120",
+                    "modified": "1601255663",
                     "area": {
                         "id": "420683",
                         "pid": "420600",
@@ -121,28 +121,28 @@
                         "agent_id": "101",
                         "area_id": "420600",
                         "fang_house_id": "1000006",
-                        "deliver_time": "0",
-                        "developer": "",
-                        "sale_address": "",
-                        "property_rights": "",
-                        "volume_rate": "",
-                        "greening_rate": "",
-                        "building_number": "",
-                        "plan_households": "",
-                        "storey_height": "",
-                        "build_progress": "",
-                        "property_fee": "",
-                        "property_company": "",
-                        "parking_number": "",
-                        "building_area": "",
-                        "land_area": "",
+                        "deliver_time": "1601424000",
+                        "developer": "开发商",
+                        "sale_address": "售楼处地址",
+                        "property_rights": "产权年限",
+                        "volume_rate": "容积率",
+                        "greening_rate": "绿化率",
+                        "building_number": "楼栋总数",
+                        "plan_households": "规划户数",
+                        "storey_height": "楼层",
+                        "build_progress": "工程进度",
+                        "property_fee": "物业管理费",
+                        "property_company": "物业公司",
+                        "parking_number": "车位数",
+                        "building_area": "建筑面积",
+                        "land_area": "占地面积",
                         "video_path": "",
-                        "seo_title": "",
-                        "seo_keyword": "",
-                        "seo_description": "",
-                        "ftr_traffic": "",
-                        "ftr_happy": "",
-                        "ftr_food": ""
+                        "seo_title": "seo标题",
+                        "seo_keyword": "seo关键字",
+                        "seo_description": "seo描述",
+                        "ftr_traffic": "交通站点",
+                        "ftr_happy": "娱乐场所",
+                        "ftr_food": "美食饭店"
                     },
                     "enableFangHouseGroup": {
                         "id": "1000002",
@@ -303,30 +303,6 @@
                             "modified": "1598252161"
                         }
                     ],
-                    "fangHouseLicense": [
-                        {
-                            "id": "1000000",
-                            "agent_id": "101",
-                            "area_id": "420600",
-                            "fang_house_id": "1000006",
-                            "name": "京房售证字（2019）31号",
-                            "image_path": "",
-                            "time": "1594684800",
-                            "created": "1595924421",
-                            "modified": "1595924434"
-                        },
-                        {
-                            "id": "1000001",
-                            "agent_id": "101",
-                            "area_id": "420600",
-                            "fang_house_id": "1000006",
-                            "name": "京房售证字（2019）20号",
-                            "image_path": "",
-                            "time": "1595894400",
-                            "created": "1595924430",
-                            "modified": "1595924430"
-                        }
-                    ],
                     "enableFangHouseDiscount": {
                         "id": "1000000",
                         "agent_id": "101",
@@ -358,13 +334,79 @@
                         }
                     ],
                     "_room": [
-                        "一室"
+                        "一室",
+                        "二室"
                     ],
                     "tags": [
-                        "刚需房"
+                        "刚需房",
+                        "精品豪宅"
                     ],
                     "_renovationStatus": [
-                        "毛坯"
+                        "毛坯",
+                        "简易装修"
+                    ],
+                    "_fangBuildingType": [
+                        "低层",
+                        "多层"
+                    ],
+                    "_fangPropertyType": [
+                        "住宅",
+                        "别墅"
+                    ],
+                    "fangHouseLicense": [
+                        {
+                            "id": "1000000",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "fang_house_id": "1000006",
+                            "name": "京房售证字（2019）31号",
+                            "image_path": "",
+                            "time": "1594684800",
+                            "created": "1595924421",
+                            "modified": "1595924434",
+                            "fangHouseLicenseBuilding": [
+                                {
+                                    "id": "1000002",
+                                    "agent_id": "101",
+                                    "area_id": "420600",
+                                    "fang_house_id": "1000006",
+                                    "fang_house_license_id": "1000000",
+                                    "fang_house_building_id": "1000000",
+                                    "fang_house_building_name": "1#"
+                                },
+                                {
+                                    "id": "1000003",
+                                    "agent_id": "101",
+                                    "area_id": "420600",
+                                    "fang_house_id": "1000006",
+                                    "fang_house_license_id": "1000000",
+                                    "fang_house_building_id": "1000001",
+                                    "fang_house_building_name": "2#"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "1000001",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "fang_house_id": "1000006",
+                            "name": "京房售证字（2019）20号",
+                            "image_path": "",
+                            "time": "1595894400",
+                            "created": "1595924430",
+                            "modified": "1595924430",
+                            "fangHouseLicenseBuilding": [
+                                {
+                                    "id": "1000001",
+                                    "agent_id": "101",
+                                    "area_id": "420600",
+                                    "fang_house_id": "1000006",
+                                    "fang_house_license_id": "1000001",
+                                    "fang_house_building_id": "1000001",
+                                    "fang_house_building_name": "2#"
+                                }
+                            ]
+                        }
                     ],
                     "fangHouseComment": [
                         {
@@ -374,11 +416,11 @@
                             "fang_house_id": "1000006",
                             "user_id": "26",
                             "content": "上传小于10M的图上传小于10M的图",
-                            "is_has_image": "2",
-                            "image_path": "",
+                            "is_has_image": "1",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
                             "like_num": "6",
                             "customer_replay": "",
-                            "examine_status": "1",
+                            "examine_status": "3",
                             "created": "1596081090",
                             "modified": "1596081090",
                             "user": {
@@ -415,7 +457,7 @@
                             "image_path": "",
                             "like_num": "2",
                             "customer_replay": "",
-                            "examine_status": "1",
+                            "examine_status": "3",
                             "created": "1596080428",
                             "modified": "1596080428",
                             "user": {
@@ -471,7 +513,23 @@
                             "created": "1596096386",
                             "modified": "1596096386"
                         }
-                    ]
+                    ],
+                    "imagesData": {
+                        "imageCount": "23",
+                        "video": {
+                            "id": "1000081",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "fang_house_id": "1000006",
+                            "fang_house_albums_id": "1000002",
+                            "name": "户型介绍",
+                            "image_path": "http://static.fczx.com/a/202009/27/f/8/c4f9f8f204c3202ab18c50c53885c8a9.jpg",
+                            "video_path": "http://static.fczx.com/a/202009/27/n/n/da1bd30da621cbbe5e9addc375bc2a14.mp4",
+                            "sort": "0",
+                            "created": "1601170558",
+                            "modified": "1601170558"
+                        }
+                    }
                 }
             }
         }
