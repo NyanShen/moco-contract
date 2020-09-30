@@ -1,0 +1,106 @@
+[
+    {
+        "description": "gethouseAskList",
+        "request": {
+            "method": "GET",
+            "uri": "/house/ask-list"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "pagination": {
+                        "pageParam": "page",
+                        "pageSizeParam": "per-page",
+                        "forcePageParam": true,
+                        "route": null,
+                        "params": null,
+                        "urlManager": null,
+                        "validatePage": true,
+                        "totalCount": 5,
+                        "defaultPageSize": 20,
+                        "pageSizeLimit": [
+                            1,
+                            50
+                        ]
+                    },
+                    "data": [
+                        {
+                            "id": "1000002",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "user_id": "26",
+                            "ask_cate_id": "0",
+                            "fang_house_id": "1000006",
+                            "title": "对【楼盘名称】提问???",
+                            "description": "",
+                            "reply_content": "算了个球算了",
+                            "reply_time": "1596096618",
+                            "created": "1596096443",
+                            "modified": "1596096618"
+                        },
+                        {
+                            "id": "1000001",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "user_id": "26",
+                            "ask_cate_id": "0",
+                            "fang_house_id": "1000006",
+                            "title": "id=\"houseAskBtn\"",
+                            "description": "",
+                            "reply_content": "",
+                            "reply_time": "0",
+                            "created": "1596096386",
+                            "modified": "1596096386"
+                        },
+                        {
+                            "id": "159",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "user_id": "26",
+                            "ask_cate_id": "0",
+                            "fang_house_id": "1000006",
+                            "title": "楼盘解读",
+                            "description": "loupanjiedu",
+                            "reply_content": "解读个毛线",
+                            "reply_time": "1595485337",
+                            "created": "1591062995",
+                            "modified": "1595485337"
+                        },
+                        {
+                            "id": "158",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "user_id": "26",
+                            "ask_cate_id": "0",
+                            "fang_house_id": "1000006",
+                            "title": "我爱襄阳",
+                            "description": "woaixiangyang",
+                            "reply_content": "",
+                            "reply_time": "0",
+                            "created": "1591059452",
+                            "modified": "1591947269"
+                        },
+                        {
+                            "id": "154",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "user_id": "26",
+                            "ask_cate_id": "0",
+                            "fang_house_id": "1000006",
+                            "title": "精彩活动",
+                            "description": "jingcaihuodong",
+                            "reply_content": "",
+                            "reply_time": "0",
+                            "created": "1590979439",
+                            "modified": "1594708397"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]
