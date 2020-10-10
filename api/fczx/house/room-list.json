@@ -1,0 +1,205 @@
+[
+    {
+        "description": "getHouseType",
+        "request": {
+            "method": "GET",
+            "uri": "/house/room-list",
+            "queries": {
+                "fang_house_id": "1000006"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "roomCount": {
+                        "total": 7,
+                        "list": [
+                            {
+                                "room": "1",
+                                "count": "1"
+                            },
+                            {
+                                "room": "2",
+                                "count": "3"
+                            },
+                            {
+                                "room": "3",
+                                "count": "3"
+                            }
+                        ]
+                    },
+                    "roomList": {
+                        "pagination": {
+                            "pageParam": "page",
+                            "pageSizeParam": "per-page",
+                            "forcePageParam": true,
+                            "route": null,
+                            "params": null,
+                            "urlManager": null,
+                            "validatePage": true,
+                            "totalCount": 7,
+                            "defaultPageSize": 20,
+                            "pageSizeLimit": [
+                                1,
+                                50
+                            ]
+                        },
+                        "data": [
+                            {
+                                "id": "1000006",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "name": "000",
+                                "description": "",
+                                "image_path": "http://static.fczx.com/a/202008/24/q/o/5d3a0efcc2ae00ef3ff695e1a310e83c.jpg",
+                                "room": "1",
+                                "office": "1",
+                                "kitchen": "1",
+                                "toilet": "1",
+                                "building_area": "80",
+                                "shared_area": "0",
+                                "inner_area": "0",
+                                "price": "1222",
+                                "price_type": "1",
+                                "sale_status": "2",
+                                "created": "1598250234",
+                                "modified": "1598252161"
+                            },
+                            {
+                                "id": "1000005",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "name": "fczx",
+                                "description": "",
+                                "image_path": "http://static.fczx.com/a/202008/24/q/o/5d3a0efcc2ae00ef3ff695e1a310e83c.jpg",
+                                "room": "2",
+                                "office": "2",
+                                "kitchen": "1",
+                                "toilet": "1",
+                                "building_area": "120",
+                                "shared_area": "0",
+                                "inner_area": "0",
+                                "price": "20000",
+                                "price_type": "1",
+                                "sale_status": "2",
+                                "created": "1598250166",
+                                "modified": "1598250166"
+                            },
+                            {
+                                "id": "1000004",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "name": "右侧广",
+                                "description": "",
+                                "image_path": "http://static.fczx.com/a/202008/24/6/b/4a02bbad92335e771083e3380125ad38.jpg",
+                                "room": "3",
+                                "office": "3",
+                                "kitchen": "3",
+                                "toilet": "3",
+                                "building_area": "133",
+                                "shared_area": "0",
+                                "inner_area": "0",
+                                "price": "0",
+                                "price_type": "1",
+                                "sale_status": "2",
+                                "created": "1598250124",
+                                "modified": "1598250124"
+                            },
+                            {
+                                "id": "1000003",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "name": "哈哈哈",
+                                "description": "",
+                                "image_path": "http://static.fczx.com/a/202008/24/6/b/4a02bbad92335e771083e3380125ad38.jpg",
+                                "room": "2",
+                                "office": "1",
+                                "kitchen": "1",
+                                "toilet": "1",
+                                "building_area": "123",
+                                "shared_area": "0",
+                                "inner_area": "0",
+                                "price": "0",
+                                "price_type": "1",
+                                "sale_status": "2",
+                                "created": "1598250099",
+                                "modified": "1598250099"
+                            },
+                            {
+                                "id": "1000002",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "name": "3C",
+                                "description": "",
+                                "image_path": "http://static.fczx.com/a/202007/31/s/x/2a9198d64f4db7aef5177fa3e4da952f.png",
+                                "room": "3",
+                                "office": "2",
+                                "kitchen": "1",
+                                "toilet": "1",
+                                "building_area": "120",
+                                "shared_area": "0",
+                                "inner_area": "0",
+                                "price": "70",
+                                "price_type": "2",
+                                "sale_status": "3",
+                                "created": "1596187954",
+                                "modified": "1596187954"
+                            },
+                            {
+                                "id": "1000001",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "name": "户型名称",
+                                "description": "",
+                                "image_path": "http://static.fczx.com/a/202007/27/2/r/93503b52cc9036e4ea711459cc1bfe7e.png",
+                                "room": "2",
+                                "office": "2",
+                                "kitchen": "1",
+                                "toilet": "1",
+                                "building_area": "98",
+                                "shared_area": "0",
+                                "inner_area": "0",
+                                "price": "8000",
+                                "price_type": "1",
+                                "sale_status": "1",
+                                "created": "1595839897",
+                                "modified": "1596424192"
+                            },
+                            {
+                                "id": "1000000",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "fang_house_id": "1000006",
+                                "name": "右侧广告",
+                                "description": "",
+                                "image_path": "http://static.fczx.com/a/202007/27/k/g/7c65ad6305ffa36ef1178d7930ae383b.png",
+                                "room": "3",
+                                "office": "2",
+                                "kitchen": "1",
+                                "toilet": "1",
+                                "building_area": "122",
+                                "shared_area": "0",
+                                "inner_area": "0",
+                                "price": "0",
+                                "price_type": "1",
+                                "sale_status": "2",
+                                "created": "1595839804",
+                                "modified": "1595839804"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+]
