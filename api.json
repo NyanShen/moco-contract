@@ -48,6 +48,9 @@
     "include": "api/fczx/house/new.json"
   },
   {
+    "include": "api/fczx/house/room-detail.json"
+  },
+  {
     "include": "api/fczx/house/room-list.json"
   },
   {

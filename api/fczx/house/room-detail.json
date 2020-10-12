@@ -1,0 +1,85 @@
+[
+    {
+        "description": "gethouseRoomDetail",
+        "request": {
+            "method": "GET",
+            "uri": "/house/room-detail",
+            "queries": {
+                "id": "1000006"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "id": "1000006",
+                    "agent_id": "101",
+                    "area_id": "420600",
+                    "fang_house_id": "1000006",
+                    "name": "000",
+                    "description": "",
+                    "image_path": "http://192.168.2.248/assets/images/house_type.jpg",
+                    "room": "1",
+                    "office": "1",
+                    "kitchen": "1",
+                    "toilet": "1",
+                    "building_area": "80",
+                    "shared_area": "0",
+                    "inner_area": "0",
+                    "price": "1222",
+                    "price_type": "1",
+                    "sale_status": "2",
+                    "created": "1598250234",
+                    "modified": "1598252161",
+                    "fangHouseBuildingRoom": "1#",
+                    "fangHouse": {
+                        "id": "1000006",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "title": "万达广场",
+                        "alias": "wandaguangchang",
+                        "image_path": "http://static.fczx.com/a/202007/13/q/z/994648a2998d3bdd79835dc69002535c.jpg",
+                        "description": "1.楼盘简介\n2.楼盘简介\n3.楼盘简介",
+                        "longitude": "112.139804",
+                        "latitude": "32.068105",
+                        "fang_area_id": "420683",
+                        "fang_building_type": "[\"146\",\"147\"]",
+                        "fang_direction_type": "[\"198\"]",
+                        "fang_project_feature": "[\"125\",\"126\"]",
+                        "fang_property_type": "[\"146\",\"147\"]",
+                        "fang_renovation_status": "[\"167\",\"168\"]",
+                        "fang_room_type": "[\"184\",\"185\"]",
+                        "fang_subway": "",
+                        "fang_sand_pic": "http://static.fczx.com/a/202007/27/e/a/01235441e9cd75a01cf9b256693f113d.png",
+                        "fang_sand_status": "1",
+                        "price": "21000",
+                        "price_type": "1",
+                        "sale_status": "3",
+                        "is_recommend": "2",
+                        "address": "万达广场",
+                        "phone": "400-8190-876转4268",
+                        "open_time": "1594598400",
+                        "build_year": "2019",
+                        "sort": "999",
+                        "status": "1",
+                        "house_type": "1",
+                        "house_num": "0",
+                        "rent_num": "0",
+                        "views_num": "330",
+                        "comment_num": "18",
+                        "image_comment_num": "4",
+                        "created": "1594622192",
+                        "modified": "1601255663"
+                    },
+                    "tags": [
+                        "刚需房",
+                        "精品豪宅"
+                    ]
+                }
+            }
+        }
+    }
+]
