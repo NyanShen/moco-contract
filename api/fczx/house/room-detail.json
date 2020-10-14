@@ -3,10 +3,7 @@
         "description": "gethouseRoomDetail",
         "request": {
             "method": "GET",
-            "uri": "/house/room-detail",
-            "queries": {
-                "id": "1000006"
-            }
+            "uri": "/house/room-detail"
         },
         "response": {
             "status": 200,
