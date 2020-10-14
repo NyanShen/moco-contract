@@ -45,6 +45,9 @@
     "include": "api/fczx/house/condition.json"
   },
   {
+    "include": "api/fczx/house/consultant.json"
+  },
+  {
     "include": "api/fczx/house/new.json"
   },
   {

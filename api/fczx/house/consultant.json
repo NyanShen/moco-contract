@@ -1,0 +1,60 @@
+[
+    {
+        "description": "gethouseconsultantlist",
+        "request": {
+            "method": "GET",
+            "uri": "/house/consultant-list",
+            "queries": {
+                "id": "1000006"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": [
+                    {
+                        "id": "167",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "user_id": "33",
+                        "fang_house_id": "1000006",
+                        "qq": "qq",
+                        "wx": "wx",
+                        "wx_qrcode_path": "http://static.fczx.com/a/202007/08/2/5/dbbe4ee7b00bdf83961165bfbcffc328.jpg",
+                        "time_begin": "1593561600",
+                        "time_end": "1628121600",
+                        "status": "1",
+                        "sort": "0",
+                        "created": "1594175123",
+                        "modified": "1601005990",
+                        "avatar": "http://static.fczx.com/www/avatar/default.jpg",
+                        "nickname": "你牛逼v",
+                        "mobile": "18888888888"
+                    },
+                    {
+                        "id": "167",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "user_id": "33",
+                        "fang_house_id": "1000006",
+                        "qq": "qq",
+                        "wx": "wx_001",
+                        "wx_qrcode_path": "http://static.fczx.com/a/202007/08/2/5/dbbe4ee7b00bdf83961165bfbcffc328.jpg",
+                        "time_begin": "1593561600",
+                        "time_end": "1628121600",
+                        "status": "1",
+                        "sort": "0",
+                        "created": "1594175123",
+                        "modified": "1601005990",
+                        "avatar": "http://static.fczx.com/www/avatar/default.jpg",
+                        "nickname": "测试号",
+                        "mobile": "18888228888"
+                    }
+                ]
+            }
+        }
+    }
+]
