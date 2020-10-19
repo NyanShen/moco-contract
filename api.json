@@ -27,10 +27,16 @@
     "include": "api/fczx/cityList.json"
   },
   {
+    "include": "api/fczx/esf/detail.json"
+  },
+  {
+    "include": "api/fczx/esf/list.json"
+  },
+  {
     "include": "api/fczx/esfList.json"
   },
   {
-    "include": "api/fczx/house/1001.json"
+    "include": "api/fczx/house/1000006.json"
   },
   {
     "include": "api/fczx/house/album.json"
