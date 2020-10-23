@@ -99,6 +99,21 @@
     "include": "api/message.json"
   },
   {
+    "include": "api/photo/articles.json"
+  },
+  {
+    "include": "api/photo/cates.json"
+  },
+  {
+    "include": "api/photo/index.json"
+  },
+  {
+    "include": "api/photo/list.json"
+  },
+  {
+    "include": "api/photo/video.json"
+  },
+  {
     "include": "api/products/category.json"
   },
   {

@@ -1,0 +1,45 @@
+[
+    {
+        "description": "GetPhotos",
+        "request": {
+            "method": "GET",
+            "uri": "/video/list"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "pagination": {
+                        "totalCount": 3
+                    },
+                    "data": [
+                        {
+                            "id": "1001",
+                            "title": "惠州怎么会纳入深圳的到底怎么回事，我们进去看看吧，说不定有什么秘密呢？",
+                            "description": "对呀，不知道呀，你进去看看惠州怎么会纳入深圳的到底怎么回事，我们进去看看吧，说不定有什么秘密呢？",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                            "video_path": "http://192.168.2.248/assets/images/video.mp4"
+                        },
+                        {
+                            "id": "1002",
+                            "title": "English title show",
+                            "description": "显示测试中文标题显示测试中文标题显示测试中文标题显示测试中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg",
+                            "video_path": "http://192.168.2.248/assets/images/video.mp4"
+                        },
+                        {
+                            "id": "1003",
+                            "title": "English title show",
+                            "description": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg",
+                            "video_path": "http://192.168.2.248/assets/images/video.mp4"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]

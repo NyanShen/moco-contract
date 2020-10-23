@@ -1,0 +1,178 @@
+[
+    {
+        "description": "GetPhotos",
+        "request": {
+            "method": "GET",
+            "uri": "/news/list"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "pagination": {
+                        "totalCount": 12
+                    },
+                    "data": [
+                        {
+                            "id": "1001",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1002",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        },
+                        {
+                            "id": "1003",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1004",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        },
+                        {
+                            "id": "1005",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1006",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        },
+                        {
+                            "id": "1007",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1008",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        },
+                        {
+                            "id": "1009",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1010",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        },
+                        {
+                            "id": "1011",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1012",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    {
+        "description": "GetPhotos",
+        "request": {
+            "method": "GET",
+            "uri": "/news-image/find-all"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": [
+                    {
+                        "id": "1000011",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/j/j/f90d9b8fc6db9312f25e84f60db0ba46.jpg"
+                    },
+                    {
+                        "id": "1000012",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/2/h/088ade4f8f2dcb4f70d54ae9a22cd432.jpg"
+                    },
+                    {
+                        "id": "1000013",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/q/r/9e04ce233cbecf2b4c43ee09f2fb59ea.jpg"
+                    },
+                    {
+                        "id": "1000014",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/0/v/cea424acd3f9be7f9b8575263aa1c74d.jpg"
+                    },
+                    {
+                        "id": "1000015",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/n/r/47f44a8983621acf32796e85008732b4.jpg"
+                    },
+                    {
+                        "id": "1000016",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/v/1/f0c3b46e94a25571d7c639f8bcf4cdaf.jpg"
+                    },
+                    {
+                        "id": "1000017",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/w/1/5a19d49b7906b6e47011aa4d393eed59.jpg"
+                    },
+                    {
+                        "id": "1000018",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/1/n/cb304674a0e8abf8f71b824931e80f03.jpg"
+                    },
+                    {
+                        "id": "1000019",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/e/0/8377d0779e44a6b16c8252fe39b2e408.jpg"
+                    },
+                    {
+                        "id": "1000020",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/7/s/929618436829134f96e6955f1891d348.jpg"
+                    },
+                    {
+                        "id": "1000021",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/1/c/abcd11ab218497ab6ee7eacb5d2fcbe6.jpg"
+                    },
+                    {
+                        "id": "1000022",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/6/6/e8be640e32083ddc178d4d54dc5adbbb.jpg"
+                    },
+                    {
+                        "id": "1000023",
+                        "news_id": "1000010",
+                        "image_path": "http://static.case.com/a/202010/22/4/d/3956fc8d6e199a3a4ca5a66f3f036ab1.jpg"
+                    }
+                ]
+            }
+        }
+    }
+]

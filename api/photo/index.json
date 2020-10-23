@@ -1,0 +1,96 @@
+[
+    {
+        "description": "GetPhotos",
+        "request": {
+            "method": "GET",
+            "uri": "/photo/list"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "pagination": {
+                        "totalCount": 12
+                    },
+                    "data": [
+                        {
+                            "id": "1001",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1002",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        },
+                        {
+                            "id": "1003",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1004",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        },
+                        {
+                            "id": "1005",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1006",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        },
+                        {
+                            "id": "1007",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1008",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        },
+                        {
+                            "id": "1009",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1010",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        },
+                        {
+                            "id": "1011",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_1.jpg"
+                        },
+                        {
+                            "id": "1012",
+                            "title": "English title show",
+                            "sub_title": "中文标题显示测试",
+                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "description": "GetNewsDetail",
+        "request": {
+            "method": "GET",
+            "uri": "/news/get"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "id": "1000002",
+                    "news_cate_id": "0",
+                    "video_path": "0",
+                    "title": "2019年最后2半月，对襄阳刚需买房的建议！",
+                    "sub_title": "",
+                    "image_path": "http://static.case.com/a/202010/21/i/4/74772e1f783457101abd950e29a71d7b.jpg",
+                    "description": "摘要",
+                    "source": "",
+                    "sort": "3",
+                    "type": "1",
+                    "status": "1",
+                    "views_num": "0",
+                    "comment_num": "0",
+                    "created": "1603270393",
+                    "modified": "1603271752",
+                    "newsInfo": {
+                        "id": "1000002",
+                        "news_id": "1000002",
+                        "content": "<p>sad</p>",
+                        "seo_title": "",
+                        "seo_keyword": "",
+                        "seo_description": ""
+                    }
+                }
+            }
+        }
+    }
+]
