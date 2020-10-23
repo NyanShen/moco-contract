@@ -20,7 +20,7 @@
                         "title": "图集",
                         "pid": "2",
                         "href": "page/image/index.html",
-                        "api": "",
+                        "module": "image",
                         "type": "4",
                         "description": "图片",
                         "target": "_self",
@@ -36,7 +36,7 @@
                         "title": "影像",
                         "pid": "2",
                         "href": "page/video/index.html",
-                        "api": "",
+                        "module": "video",
                         "type": "5",
                         "description": "视频",
                         "target": "_self",
@@ -52,7 +52,7 @@
                         "title": "策划",
                         "pid": "2",
                         "href": "page/article/index.html?type=1",
-                        "api": "",
+                        "module": "article",
                         "type": "1",
                         "description": "文章",
                         "target": "_self",
@@ -60,15 +60,31 @@
                         "icon": "",
                         "spread": "1",
                         "status": "1",
-                        "created": "0",
-                        "modified": "0"
+                        "created": "1588757805",
+                        "modified": "1588757805"
+                    },
+                    {
+                        "id": "1000126",
+                        "title": "设计",
+                        "pid": "2",
+                        "href": "page/article/index.html?type=2",
+                        "module": "article",
+                        "type": "2",
+                        "description": "文章",
+                        "target": "_self",
+                        "sort": "0",
+                        "icon": "",
+                        "spread": "1",
+                        "status": "1",
+                        "created": "1588757805",
+                        "modified": "1603355299"
                     },
                     {
                         "id": "1000127",
                         "title": "媒体",
                         "pid": "2",
                         "href": "page/article/index.html?type=3",
-                        "api": "",
+                        "module": "article",
                         "type": "3",
                         "description": "文章",
                         "target": "_self",
@@ -76,8 +92,24 @@
                         "icon": "",
                         "spread": "1",
                         "status": "1",
-                        "created": "0",
-                        "modified": "0"
+                        "created": "1588757805",
+                        "modified": "1588757805"
+                    },
+                    {
+                        "id": "1000128",
+                        "title": "专栏",
+                        "pid": "2",
+                        "href": "page/article/index.html?type=6",
+                        "module": "article",
+                        "type": "6",
+                        "description": "文章",
+                        "target": "_self",
+                        "sort": "0",
+                        "icon": "",
+                        "spread": "1",
+                        "status": "1",
+                        "created": "1588757805",
+                        "modified": "1588757805"
                     }
                 ]
             }
