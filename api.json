@@ -75,6 +75,12 @@
     "include": "api/fczx/plot-list.json"
   },
   {
+    "include": "api/fczx/rent/get.json"
+  },
+  {
+    "include": "api/fczx/rent/list.json"
+  },
+  {
     "include": "api/fczx/searchHotList.json"
   },
   {
@@ -103,6 +109,9 @@
   },
   {
     "include": "api/photo/cates.json"
+  },
+  {
+    "include": "api/photo/detail.json"
   },
   {
     "include": "api/photo/index.json"
