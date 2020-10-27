@@ -81,8 +81,8 @@
                         "alias": "qitaxiaoqu",
                         "image_path": "http://static.fczx.com/a/202009/14/q/d/175842c73de8d46904f62f226a633ee8.png",
                         "description": "其他小区",
-                        "longitude": "112.128537",
-                        "latitude": "32.014797",
+                        "longitude": "112.139804",
+                        "latitude": "32.068105",
                         "fang_area_id": "420606",
                         "fang_building_type": "[\"146\",\"147\",\"148\",\"149\"]",
                         "fang_direction_type": "[\"198\",\"199\",\"200\",\"201\",\"202\",\"203\",\"204\",\"205\"]",
@@ -156,7 +156,69 @@
                         "created": "1590457601",
                         "modified": "1590457601"
                     },
-                    "tags": []
+                    "tags": [],
+                    "fangMatching": [
+                        {
+                            "id": "1",
+                            "name": "床",
+                            "icon": "&#xe6a6;"
+                        },
+                        {
+                            "id": "2",
+                            "name": "宽带",
+                            "icon": " &#xe601;"
+                        },
+                        {
+                            "id": "3",
+                            "name": "电视",
+                            "icon": " &#xe691;"
+                        },
+                        {
+                            "id": "5",
+                            "name": "洗衣机",
+                            "icon": " &#xec78;"
+                        },
+                        {
+                            "id": "6",
+                            "name": "空调",
+                            "icon": " &#xe651;"
+                        },
+                        {
+                            "id": "7",
+                            "name": "热水器",
+                            "icon": " &#xe6a6;"
+                        },
+                        {
+                            "id": "1",
+                            "name": "床",
+                            "icon": "&#xe6a6;"
+                        },
+                        {
+                            "id": "2",
+                            "name": "宽带",
+                            "icon": " &#xe601;"
+                        },
+                        {
+                            "id": "3",
+                            "name": "电视",
+                            "icon": " &#xe691;"
+                        },
+                        {
+                            "id": "5",
+                            "name": "洗衣机",
+                            "icon": " &#xec78;"
+                        },
+                        {
+                            "id": "6",
+                            "name": "空调",
+                            "icon": " &#xe651;"
+                        },
+                        {
+                            "id": "7",
+                            "name": "热水器",
+                            "icon": " &#xe6a6;"
+                        }
+                    ]
                 }
             }
         }

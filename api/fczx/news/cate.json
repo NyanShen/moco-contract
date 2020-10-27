@@ -1,0 +1,84 @@
+[
+    {
+        "description": "getNewsList",
+        "request": {
+            "method": "GET",
+            "uri": "/news/cate-list"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": [
+                    {
+                        "id": "154",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "pid": "0",
+                        "path": "/",
+                        "name": "精彩活动",
+                        "alias": "jingcaihuodong",
+                        "sort": "1565",
+                        "status": "1",
+                        "created": "1590979439",
+                        "modified": "1603785097"
+                    },
+                    {
+                        "id": "158",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "pid": "0",
+                        "path": "/",
+                        "name": "我爱襄阳",
+                        "alias": "woaixiangyang",
+                        "sort": "999",
+                        "status": "1",
+                        "created": "1591059452",
+                        "modified": "1591947269"
+                    },
+                    {
+                        "id": "157",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "pid": "0",
+                        "path": "/",
+                        "name": "工程进度",
+                        "alias": "gongchengjindu",
+                        "sort": "0",
+                        "status": "1",
+                        "created": "1591059424",
+                        "modified": "1591259992"
+                    },
+                    {
+                        "id": "159",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "pid": "0",
+                        "path": "/",
+                        "name": "楼盘解读",
+                        "alias": "loupanjiedu",
+                        "sort": "0",
+                        "status": "1",
+                        "created": "1591062995",
+                        "modified": "1600398831"
+                    },
+                    {
+                        "id": "160",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "pid": "0",
+                        "path": "/",
+                        "name": "测试一下",
+                        "alias": "ceshiyixia",
+                        "sort": "0",
+                        "status": "1",
+                        "created": "1591091269",
+                        "modified": "1600398641"
+                    }
+                ]
+            }
+        }
+    }
+]

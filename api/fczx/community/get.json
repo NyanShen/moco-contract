@@ -1,0 +1,106 @@
+[
+    {
+        "description": "getcommunity",
+        "request": {
+            "method": "GET",
+            "uri": "/community/get"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "id": "1000016",
+                    "agent_id": "101",
+                    "area_id": "420600",
+                    "title": "民发广场",
+                    "alias": "minfaguangchang",
+                    "image_path": "http://static.fczx.com/a/202007/13/q/z/994648a2998d3bdd79835dc69002535c.jpg",
+                    "description": "小区简介",
+                    "longitude": "112.186948",
+                    "latitude": "32.082613",
+                    "fang_area_id": "420606",
+                    "fang_building_type": "[\"146\"]",
+                    "fang_direction_type": "[\"200\",\"201\"]",
+                    "fang_project_feature": "[\"125\"]",
+                    "fang_property_type": "[\"146\"]",
+                    "fang_renovation_status": "[\"167\"]",
+                    "fang_room_type": "[\"184\"]",
+                    "fang_subway": "",
+                    "fang_sand_pic": "",
+                    "fang_sand_status": "1",
+                    "price": "60",
+                    "price_type": "2",
+                    "sale_status": "1",
+                    "is_recommend": "1",
+                    "address": "民发广场",
+                    "phone": "",
+                    "open_time": "0",
+                    "build_year": "2019",
+                    "sort": "1",
+                    "status": "1",
+                    "house_type": "2",
+                    "house_num": "2",
+                    "rent_num": "0",
+                    "views_num": "112",
+                    "comment_num": "0",
+                    "image_comment_num": "0",
+                    "created": "1599531500",
+                    "modified": "1600844876",
+                    "area": {
+                        "id": "420606",
+                        "pid": "420600",
+                        "name": "樊城区",
+                        "longitude": "112.142599",
+                        "latitude": "32.050572",
+                        "sort": "0",
+                        "area_type": "3",
+                        "status": "1",
+                        "alias": "",
+                        "short_name": "",
+                        "is_hot": "2"
+                    },
+                    "fangHouseInfo": {
+                        "id": "1000016",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "fang_house_id": "1000016",
+                        "deliver_time": "0",
+                        "developer": "",
+                        "sale_address": "",
+                        "property_rights": "",
+                        "volume_rate": "",
+                        "greening_rate": "",
+                        "building_number": "",
+                        "plan_households": "",
+                        "storey_height": "",
+                        "build_progress": "",
+                        "property_fee": "",
+                        "property_company": "",
+                        "parking_number": "",
+                        "building_area": "",
+                        "land_area": "",
+                        "video_path": "",
+                        "seo_title": "",
+                        "seo_keyword": "",
+                        "seo_description": "",
+                        "ftr_traffic": "",
+                        "ftr_happy": "",
+                        "ftr_food": ""
+                    },
+                    "tags": [
+                        "刚需房"
+                    ],
+                    "_room": [
+                        "一室"
+                    ],
+                    "imagesData": {
+                        "imageCount": "1"
+                    }
+                }
+            }
+        }
+    }
+]

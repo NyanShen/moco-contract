@@ -1,0 +1,59 @@
+[
+    {
+        "description": "getNews",
+        "request": {
+            "method": "GET",
+            "uri": "/news/get"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "id": "1000000",
+                    "agent_id": "101",
+                    "area_id": "420600",
+                    "news_cate_id": "154",
+                    "fang_house_id": "1000006",
+                    "title": "2019年最后2半月，对襄阳刚需买房的建议！",
+                    "sub_title": "副标题",
+                    "image_path": "http://static.fczx.com/a/202010/09/6/0/9910c5f6ea630497ad2eb941819d1b65.jpg",
+                    "description": "摘要摘要",
+                    "source": "",
+                    "author": "作者作者",
+                    "type": "1",
+                    "status": "1",
+                    "views_num": "7",
+                    "comment_num": "0",
+                    "created": "1602208237",
+                    "modified": "1602208237",
+                    "newsCate": {
+                        "id": "154",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "pid": "0",
+                        "path": "/",
+                        "name": "精彩活动",
+                        "alias": "jingcaihuodong",
+                        "sort": "1565",
+                        "status": "1",
+                        "created": "1590979439",
+                        "modified": "1594708397"
+                    },
+                    "newsInfo": {
+                        "id": "1000000",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "news_id": "1000000",
+                        "content": "<p>正文</p><p>自定义标题</p><p>段落</p><p>arial</p><p>16px</p><p>代码语言</p><p>正文</p><p>自定义标题</p><p>段落</p><p>arial</p><p>16px</p><p>代码语言</p><p>正文</p><p>自定义标题</p><p>段落</p><p>arial</p><p>16px</p><p>代码语言</p><p><br/></p>",
+                        "seo_title": "seo标题",
+                        "seo_keyword": "seo关键字",
+                        "seo_description": "seo描述"
+                    }
+                }
+            }
+        }
+    }
+]
