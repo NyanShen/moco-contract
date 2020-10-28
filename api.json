@@ -30,6 +30,9 @@
     "include": "api/fczx/community/get.json"
   },
   {
+    "include": "api/fczx/community/list.json"
+  },
+  {
     "include": "api/fczx/esf/detail.json"
   },
   {
@@ -73,6 +76,15 @@
   },
   {
     "include": "api/fczx/houseList.json"
+  },
+  {
+    "include": "api/fczx/news/cate.json"
+  },
+  {
+    "include": "api/fczx/news/get.json"
+  },
+  {
+    "include": "api/fczx/news/list.json"
   },
   {
     "include": "api/fczx/plot-list.json"
