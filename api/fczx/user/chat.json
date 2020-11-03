@@ -1,0 +1,343 @@
+[
+    {
+        "description": "getChatDialog",
+        "request": {
+            "method": "GET",
+            "uri": "/chat/dialog"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": [
+                    {
+                        "id": "1000008",
+                        "to_user_id": "25",
+                        "from_user_id": "26",
+                        "hash": "25-26",
+                        "dialog_type": "1",
+                        "message_type": "1",
+                        "last_content": "321",
+                        "status": "1",
+                        "created": "1595042453",
+                        "modified": "1604307940",
+                        "user": {
+                            "id": "26",
+                            "mobile": "18681515584",
+                            "nickname": "忠实用户123",
+                            "avatar": "http://static.fczx.com/u/202008/29/e/6/733e087649487d9188bf24251c2a1538.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000014",
+                        "to_user_id": "1000002",
+                        "from_user_id": "25",
+                        "hash": "25-1000002",
+                        "dialog_type": "0",
+                        "message_type": "1",
+                        "last_content": "然后我为何物时",
+                        "status": "1",
+                        "created": "1602315827",
+                        "modified": "1604307674",
+                        "user": {
+                            "id": "1000002",
+                            "mobile": "13232323233",
+                            "nickname": "node",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000015",
+                        "to_user_id": "1000001",
+                        "from_user_id": "25",
+                        "hash": "25-1000001",
+                        "dialog_type": "0",
+                        "message_type": "1",
+                        "last_content": "321321231",
+                        "status": "1",
+                        "created": "1602315831",
+                        "modified": "1604307651",
+                        "user": {
+                            "id": "1000001",
+                            "mobile": "13232323231",
+                            "nickname": "php",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000018",
+                        "to_user_id": "1",
+                        "from_user_id": "25",
+                        "hash": "1-25",
+                        "dialog_type": "0",
+                        "message_type": "1",
+                        "last_content": "测试目标数据",
+                        "status": "1",
+                        "created": "1602813932",
+                        "modified": "1604307648",
+                        "user": {
+                            "id": "1",
+                            "mobile": "13232323232",
+                            "nickname": "js",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000012",
+                        "to_user_id": "1000006",
+                        "from_user_id": "25",
+                        "hash": "25-1000006",
+                        "dialog_type": "0",
+                        "message_type": "1",
+                        "last_content": "123",
+                        "status": "1",
+                        "created": "1602315816",
+                        "modified": "1604307633",
+                        "user": {
+                            "id": "1000006",
+                            "mobile": "13232323237",
+                            "nickname": "Android",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000011",
+                        "to_user_id": "25",
+                        "from_user_id": "1000007",
+                        "hash": "25-1000007",
+                        "dialog_type": "0",
+                        "message_type": "1",
+                        "last_content": "",
+                        "status": "2",
+                        "created": "1602315813",
+                        "modified": "1604307496",
+                        "user": {
+                            "id": "1000007",
+                            "mobile": "13232323238",
+                            "nickname": "Python",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000016",
+                        "to_user_id": "25",
+                        "from_user_id": "33",
+                        "hash": "25-33",
+                        "dialog_type": "0",
+                        "message_type": "1",
+                        "last_content": "3",
+                        "status": "1",
+                        "created": "1602315836",
+                        "modified": "1602820747",
+                        "user": {
+                            "id": "33",
+                            "mobile": "18888888888",
+                            "nickname": "你牛逼v",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000010",
+                        "to_user_id": "25",
+                        "from_user_id": "1000005",
+                        "hash": "25-1000005",
+                        "dialog_type": "0",
+                        "message_type": "1",
+                        "last_content": "啊啊啊啊啊啊啊啊啊啊啊",
+                        "status": "1",
+                        "created": "1602315803",
+                        "modified": "1602575581",
+                        "user": {
+                            "id": "1000005",
+                            "mobile": "13232323236",
+                            "nickname": "ios",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000013",
+                        "to_user_id": "25",
+                        "from_user_id": "1000004",
+                        "hash": "25-1000004",
+                        "dialog_type": "0",
+                        "message_type": "1",
+                        "last_content": "",
+                        "status": "1",
+                        "created": "1602315818",
+                        "modified": "1602315818",
+                        "user": {
+                            "id": "1000004",
+                            "mobile": "13232323235",
+                            "nickname": "java",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000009",
+                        "to_user_id": "25",
+                        "from_user_id": "1000003",
+                        "hash": "25-1000003",
+                        "dialog_type": "0",
+                        "message_type": "1",
+                        "last_content": "",
+                        "status": "1",
+                        "created": "1602315794",
+                        "modified": "1602315794",
+                        "user": {
+                            "id": "1000003",
+                            "mobile": "13232323234",
+                            "nickname": "c++",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "description": "getChatData",
+        "request": {
+            "method": "GET",
+            "uri": "/chat/chat-data"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "pagination": {
+                        "pageParam": "page",
+                        "pageSizeParam": "per-page",
+                        "forcePageParam": true,
+                        "route": null,
+                        "params": null,
+                        "urlManager": null,
+                        "validatePage": true,
+                        "totalCount": 11,
+                        "defaultPageSize": 20,
+                        "pageSizeLimit": [
+                            1,
+                            50
+                        ]
+                    },
+                    "data": [
+                        {
+                            "id": "1000091",
+                            "content": "3",
+                            "message_type": "1",
+                            "from_user_id": "25",
+                            "to_user_id": "1000005",
+                            "hash": "25-1000005",
+                            "time": "1602575581",
+                            "created": "1602496585",
+                            "modified": "1602496585"
+                        },
+                        {
+                            "id": "1000092",
+                            "content": "1",
+                            "message_type": "1",
+                            "from_user_id": "25",
+                            "to_user_id": "1000005",
+                            "hash": "25-1000005",
+                            "time": "1602575581",
+                            "created": "1602555436",
+                            "modified": "1602555436"
+                        },
+                        {
+                            "id": "1000093",
+                            "content": "1",
+                            "message_type": "1",
+                            "from_user_id": "25",
+                            "to_user_id": "1000005",
+                            "hash": "25-1000005",
+                            "time": "1602575581",
+                            "created": "1602555442",
+                            "modified": "1602555442"
+                        },
+                        {
+                            "id": "1000094",
+                            "content": "3",
+                            "message_type": "1",
+                            "from_user_id": "25",
+                            "to_user_id": "1000005",
+                            "hash": "25-1000005",
+                            "time": "1602575581",
+                            "created": "1602569891",
+                            "modified": "1602569891"
+                        },
+                        {
+                            "id": "1000095",
+                            "content": "1",
+                            "message_type": "1",
+                            "from_user_id": "25",
+                            "to_user_id": "1000005",
+                            "hash": "25-1000005",
+                            "time": "1602575581",
+                            "created": "1602569925",
+                            "modified": "1602569925"
+                        },
+                        {
+                            "id": "1000097",
+                            "content": "啊啊啊啊啊啊啊啊啊啊啊",
+                            "message_type": "1",
+                            "from_user_id": "25",
+                            "to_user_id": "1000005",
+                            "hash": "25-1000005",
+                            "time": "1602575581",
+                            "created": "1602575581",
+                            "modified": "1602575581"
+                        },
+                        {
+                            "id": "1000135",
+                            "content": "凡吃的撒",
+                            "message_type": "1",
+                            "from_user_id": "25",
+                            "to_user_id": "1000005",
+                            "hash": "25-1000005",
+                            "time": "1604396220",
+                            "created": "1604396220",
+                            "modified": "1604396220"
+                        },
+                        {
+                            "id": "1000136",
+                            "content": "测试大V",
+                            "message_type": "1",
+                            "from_user_id": "25",
+                            "to_user_id": "1000005",
+                            "hash": "25-1000005",
+                            "time": "1604396220",
+                            "created": "1604396241",
+                            "modified": "1604396241"
+                        },
+                        {
+                            "id": "1000137",
+                            "content": "传送到成都",
+                            "message_type": "1",
+                            "from_user_id": "25",
+                            "to_user_id": "1000005",
+                            "hash": "25-1000005",
+                            "time": "1604396220",
+                            "created": "1604396275",
+                            "modified": "1604396275"
+                        },
+                        {
+                            "id": "1000138",
+                            "content": "第三个方式认购人数third",
+                            "message_type": "1",
+                            "from_user_id": "25",
+                            "to_user_id": "1000005",
+                            "hash": "25-1000005",
+                            "time": "1604396220",
+                            "created": "1604396282",
+                            "modified": "1604396282"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]

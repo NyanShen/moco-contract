@@ -15,14 +15,16 @@
                     "city": {
                         "h": [
                             {
-                                "id": "1000005",
+                                "id": "1000032",
                                 "agent_id": "101",
                                 "area_id": "131100",
                                 "area_name": "衡水市",
                                 "short_name": "衡水",
                                 "alias": "hengshui",
                                 "alias_index": "h",
-                                "is_hot": "2"
+                                "is_hot": "2",
+                                "longitude": "112.128537",
+                                "latitude": "32.014797"
                             }
                         ],
                         "s": [
@@ -34,7 +36,9 @@
                                 "short_name": "十堰",
                                 "alias": "shiyan",
                                 "alias_index": "s",
-                                "is_hot": "2"
+                                "is_hot": "2",
+                                "longitude": "112.128537",
+                                "latitude": "32.014797"
                             },
                             {
                                 "id": "1000028",
@@ -44,77 +48,9 @@
                                 "short_name": "随州",
                                 "alias": "suizhou",
                                 "alias_index": "s",
-                                "is_hot": "2"
-                            },
-                            {
-                                "id": "1000029",
-                                "agent_id": "97",
-                                "area_id": "421400",
-                                "area_name": "上海",
-                                "short_name": "上海",
-                                "alias": "shanghai",
-                                "alias_index": "s",
-                                "is_hot": "2"
-                            },
-                            {
-                                "id": "1000030",
-                                "agent_id": "97",
-                                "area_id": "421500",
-                                "area_name": "深圳市",
-                                "short_name": "深圳",
-                                "alias": "shenzhen",
-                                "alias_index": "s",
-                                "is_hot": "2"
-                            },
-                            {
-                                "id": "1000031",
-                                "agent_id": "97",
-                                "area_id": "421600",
-                                "area_name": "苏州",
-                                "short_name": "苏州",
-                                "alias": "suzou",
-                                "alias_index": "s",
-                                "is_hot": "2"
-                            },
-                            {
-                                "id": "1000032",
-                                "agent_id": "97",
-                                "area_id": "421700",
-                                "area_name": "沈阳",
-                                "short_name": "沈阳",
-                                "alias": "shenyang",
-                                "alias_index": "s",
-                                "is_hot": "2"
-                            },
-                            {
-                                "id": "1000033",
-                                "agent_id": "97",
-                                "area_id": "421800",
-                                "area_name": "汕头",
-                                "short_name": "汕头",
-                                "alias": "shantou",
-                                "alias_index": "s",
-                                "is_hot": "2"
-                            },
-                            {
-                                "id": "1000034",
-                                "agent_id": "97",
-                                "area_id": "421900",
-                                "area_name": "韶关",
-                                "short_name": "韶关",
-                                "alias": "shouguan",
-                                "alias_index": "s",
-                                "is_hot": "2"
-                            },
-                            {
-                                "id": "1000035",
-                                "agent_id": "97",
-                                "area_id": "422000",
-                                "area_name": "石家庄",
-                                "short_name": "石家庄",
-                                "alias": "shijiazhuang",
-                                "alias_index": "s",
-                                "is_hot": "2"
+                                "is_hot": "2",
+                                "longitude": "112.128537",
+                                "latitude": "32.014797"
                             }
                         ],
                         "w": [
@@ -126,19 +62,23 @@
                                 "short_name": "武汉",
                                 "alias": "wuhan",
                                 "alias_index": "w",
-                                "is_hot": "1"
+                                "is_hot": "1",
+                                "longitude": "112.128537",
+                                "latitude": "32.014797"
                             }
                         ],
                         "x": [
                             {
-                                "id": "1000006",
+                                "id": "1000033",
                                 "agent_id": "101",
                                 "area_id": "420600",
                                 "area_name": "襄阳市",
                                 "short_name": "襄阳",
                                 "alias": "xiangyang",
                                 "alias_index": "x",
-                                "is_hot": "1"
+                                "is_hot": "1",
+                                "longitude": "112.128537",
+                                "latitude": "32.014797"
                             }
                         ],
                         "y": [
@@ -150,7 +90,9 @@
                                 "short_name": "宜昌",
                                 "alias": "yichang",
                                 "alias_index": "y",
-                                "is_hot": "2"
+                                "is_hot": "2",
+                                "longitude": "112.128537",
+                                "latitude": "32.014797"
                             }
                         ]
                     },
@@ -163,17 +105,21 @@
                             "short_name": "武汉",
                             "alias": "wuhan",
                             "alias_index": "w",
-                            "is_hot": "1"
+                            "is_hot": "1",
+                            "longitude": "112.128537",
+                            "latitude": "32.014797"
                         },
                         {
-                            "id": "1000006",
+                            "id": "1000033",
                             "agent_id": "101",
                             "area_id": "420600",
                             "area_name": "襄阳市",
                             "short_name": "襄阳",
                             "alias": "xiangyang",
                             "alias_index": "x",
-                            "is_hot": "1"
+                            "is_hot": "1",
+                            "longitude": "112.128537",
+                            "latitude": "32.014797"
                         }
                     ]
                 }

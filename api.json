@@ -60,6 +60,9 @@
     "include": "api/fczx/house/consultant.json"
   },
   {
+    "include": "api/fczx/house/map.json"
+  },
+  {
     "include": "api/fczx/house/new.json"
   },
   {
@@ -100,6 +103,9 @@
   },
   {
     "include": "api/fczx/searchKeyList.json"
+  },
+  {
+    "include": "api/fczx/user/chat.json"
   },
   {
     "include": "api/fczx/user/house.json"
