@@ -60,6 +60,13 @@
                     "comment_num": "0",
                     "created": "1601450426",
                     "modified": "1601450426",
+                    "user": {
+                        "id": "26",
+                        "username": "fczx_15925535814980",
+                        "mobile": "18681515584",
+                        "nickname": "Eve",
+                        "avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/h057nR3libtkVNWNJibXkdjypA7lKp9BDAHQvEv48H5xpbibMIDqaAehFCBQMYYCZtZhbibtPOQ8tvFyFGKaJjqGAw/132"
+                    },
                     "area": {
                         "id": "420683",
                         "pid": "420600",

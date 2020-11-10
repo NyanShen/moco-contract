@@ -104,13 +104,20 @@
                         "sort": "1",
                         "status": "1",
                         "house_type": "2",
-                        "house_num": "2",
+                        "house_num": "3",
                         "rent_num": "0",
                         "views_num": "112",
                         "comment_num": "0",
                         "image_comment_num": "0",
                         "created": "1599531500",
                         "modified": "1600844876"
+                    },
+                    "user": {
+                        "id": "26",
+                        "username": "fczx_15925535814980",
+                        "mobile": "18681515584",
+                        "nickname": "Eve",
+                        "avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/h057nR3libtkVNWNJibXkdjypA7lKp9BDAHQvEv48H5xpbibMIDqaAehFCBQMYYCZtZhbibtPOQ8tvFyFGKaJjqGAw/132"
                     },
                     "esfImage": [
                         {
@@ -119,7 +126,7 @@
                             "area_id": "420600",
                             "esf_id": "1000027",
                             "name": null,
-                            "image_path": "http://192.168.2.248/assets/images/1400x933_7.jpg",
+                            "image_path": "http://static.fczx.com/u/202009/22/a/b/ed6e72421340d91efc37634c8e880095.jpg",
                             "is_face": "1",
                             "sort": "0",
                             "created": "1603095622",
@@ -131,7 +138,7 @@
                             "area_id": "420600",
                             "esf_id": "1000027",
                             "name": null,
-                            "image_path": "http://192.168.2.248/assets/images/1400x933_6.jpg",
+                            "image_path": "http://static.fczx.com/u/202009/22/x/y/b98f7729de3568441a2228683562c6ca.jpg",
                             "is_face": "2",
                             "sort": "0",
                             "created": "1603095622",

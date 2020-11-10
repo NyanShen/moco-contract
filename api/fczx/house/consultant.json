@@ -16,6 +16,98 @@
                 "status": 200,
                 "data": [
                     {
+                        "id": "1000004",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "user_id": "1000008",
+                        "fang_house_id": "1000006",
+                        "qq": "",
+                        "wx": "",
+                        "wx_qrcode_path": "",
+                        "time_begin": "1604534400",
+                        "time_end": "1609286400",
+                        "status": "1",
+                        "sort": "3",
+                        "created": "1604993810",
+                        "modified": "1604993886",
+                        "user": {
+                            "id": 1000008,
+                            "username": "fczx_16027489576470",
+                            "mobile": "13232323131",
+                            "nickname": "fczx1602748957",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000006",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "user_id": "1000006",
+                        "fang_house_id": "1000006",
+                        "qq": "",
+                        "wx": "",
+                        "wx_qrcode_path": "",
+                        "time_begin": "1604188800",
+                        "time_end": "1609372800",
+                        "status": "1",
+                        "sort": "0",
+                        "created": "1604993831",
+                        "modified": "1604993870",
+                        "user": {
+                            "id": 1000006,
+                            "username": "fczx_16023124316609",
+                            "mobile": "13232323237",
+                            "nickname": "Android",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000005",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "user_id": "1000007",
+                        "fang_house_id": "1000006",
+                        "qq": "",
+                        "wx": "",
+                        "wx_qrcode_path": "",
+                        "time_begin": "1604361600",
+                        "time_end": "1609372800",
+                        "status": "1",
+                        "sort": "0",
+                        "created": "1604993820",
+                        "modified": "1604993875",
+                        "user": {
+                            "id": 1000007,
+                            "username": "fczx_16023124431622",
+                            "mobile": "13232323238",
+                            "nickname": "Python",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
+                        "id": "1000003",
+                        "agent_id": "101",
+                        "area_id": "420600",
+                        "user_id": "1000010",
+                        "fang_house_id": "1000006",
+                        "qq": "",
+                        "wx": "",
+                        "wx_qrcode_path": "",
+                        "time_begin": "1604275200",
+                        "time_end": "1609372800",
+                        "status": "1",
+                        "sort": "0",
+                        "created": "1604993796",
+                        "modified": "1604993882",
+                        "user": {
+                            "id": 1000010,
+                            "username": "fczx_16027491487147",
+                            "mobile": "13232323132",
+                            "nickname": "fczx1602749148",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
+                    },
+                    {
                         "id": "167",
                         "agent_id": "101",
                         "area_id": "420600",
@@ -30,28 +122,13 @@
                         "sort": "0",
                         "created": "1594175123",
                         "modified": "1601005990",
-                        "avatar": "http://static.fczx.com/www/avatar/default.jpg",
-                        "nickname": "你牛逼v",
-                        "mobile": "18888888888"
-                    },
-                    {
-                        "id": "167",
-                        "agent_id": "101",
-                        "area_id": "420600",
-                        "user_id": "33",
-                        "fang_house_id": "1000006",
-                        "qq": "qq",
-                        "wx": "wx_001",
-                        "wx_qrcode_path": "http://static.fczx.com/a/202007/08/2/5/dbbe4ee7b00bdf83961165bfbcffc328.jpg",
-                        "time_begin": "1593561600",
-                        "time_end": "1628121600",
-                        "status": "1",
-                        "sort": "0",
-                        "created": "1594175123",
-                        "modified": "1601005990",
-                        "avatar": "http://static.fczx.com/www/avatar/default.jpg",
-                        "nickname": "测试号",
-                        "mobile": "18888228888"
+                        "user": {
+                            "id": 33,
+                            "username": "fczx_15928984648819",
+                            "mobile": "18888888888",
+                            "nickname": "你牛逼v",
+                            "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                        }
                     }
                 ]
             }
