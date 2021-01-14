@@ -27,6 +27,9 @@
     "include": "api/fczx/cityList.json"
   },
   {
+    "include": "api/fczx/community/find.json"
+  },
+  {
     "include": "api/fczx/community/get.json"
   },
   {
