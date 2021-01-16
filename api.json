@@ -36,6 +36,9 @@
     "include": "api/fczx/community/list.json"
   },
   {
+    "include": "api/fczx/discover.json"
+  },
+  {
     "include": "api/fczx/esf/detail.json"
   },
   {

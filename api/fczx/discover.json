@@ -1,0 +1,119 @@
+[
+    {
+        "description": "fetchDiscoverList",
+        "request": {
+            "method": "GET",
+            "uri": "/discover/list"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "pagination": {
+                        "totalCount": 2
+                    },
+                    "data": [
+                        {
+                            "id": "1001",
+                            "type": "image",
+                            "content": "110户型样板间客厅展示",
+                            "media": [
+                                {
+                                    "image_path": "https://static.fczx.com/a/202012/04/t/q/4e8d2064f178e27fed8e113f0faac775.jpg"
+                                },
+                                {
+                                    "image_path": "https://static.fczx.com/a/202012/04/n/p/4a4df62fc10dd4692129d6dbc5466eea.jpg"
+                                },
+                                {
+                                    "image_path": "https://static.fczx.com/a/202012/04/d/l/02a4d9407ff883c9caa348edef2ba890.jpg"
+                                }
+                            ],
+                            "fangHouse": {
+                                "id": "195",
+                                "title": "襄阳吾悦广场",
+                                "image_path": "https://static.fczx.com/a/202012/04/n/p/4a4df62fc10dd4692129d6dbc5466eea.jpg",
+                                "price": "21000",
+                                "price_type": "1",
+                                "sale_status": "2",
+                                "area": {
+                                    "id": "420683",
+                                    "name": "樊城区"
+                                }
+                            },
+                            "author": {
+                                "id": 33,
+                                "username": "fczx_15928984648819",
+                                "mobile": "132765546",
+                                "nickname": "Nyan Shen",
+                                "avatar": "https://static.fczx.com/a/202012/04/d/l/02a4d9407ff883c9caa348edef2ba890.jpg"
+                            }
+                        },
+                        {
+                            "id": "1001",
+                            "type": "video",
+                            "content": "提前襄阳国投国际参观美丽景色吧，我们美丽的家园！",
+                            "media": {
+                                "video_path": "https://static.fczx.com/www/assets/images/video.mp4",
+                                "poster_path": "https://static.fczx.com/a/202012/04/d/l/02a4d9407ff883c9caa348edef2ba890.jpg"
+                            },
+                            "fangHouse": {
+                                "id": "195",
+                                "title": "襄阳国投国际",
+                                "image_path": "http://static.fczx.com/a/202007/13/q/z/994648a2998d3bdd79835dc69002535c.jpg",
+                                "price": "21000",
+                                "price_type": "1",
+                                "sale_status": "3",
+                                "area": {
+                                    "id": "420683",
+                                    "name": "樊城区"
+                                }
+                            },
+                            "author": {
+                                "id": 33,
+                                "username": "fczx_15928984648819",
+                                "mobile": "132765546",
+                                "nickname": "test Shen",
+                                "avatar": "http://static.fczx.com/www/avatar/default.jpg"
+                            }
+                        },
+                        {
+                            "id": "1001",
+                            "type": "image",
+                            "content": "襄阳测试测试我在测试110户型样板间客厅展示襄阳测试测试我在测试110户型样板间客厅展示嘿嘿",
+                            "media": [
+                                {
+                                    "image_path": "https://static.fczx.com/a/202012/04/t/q/4e8d2064f178e27fed8e113f0faac775.jpg"
+                                },
+                                {
+                                    "image_path": "https://static.fczx.com/a/202012/04/n/p/4a4df62fc10dd4692129d6dbc5466eea.jpg"
+                                }
+                            ],
+                            "fangHouse": {
+                                "id": "195",
+                                "title": "襄阳测试测试我在测试",
+                                "image_path": "https://static.fczx.com/a/202012/04/n/p/4a4df62fc10dd4692129d6dbc5466eea.jpg",
+                                "price": "21000",
+                                "price_type": "1",
+                                "sale_status": "2",
+                                "area": {
+                                    "id": "420683",
+                                    "name": "樊城区"
+                                }
+                            },
+                            "author": {
+                                "id": 33,
+                                "username": "fczx_15928984648819",
+                                "mobile": "132765546",
+                                "nickname": "Nyan Shen",
+                                "avatar": "https://static.fczx.com/a/202012/04/d/l/02a4d9407ff883c9caa348edef2ba890.jpg"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+]
