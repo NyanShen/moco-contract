@@ -1,0 +1,39 @@
+[
+    {
+        "description": "getPayParam",
+        "request": {
+            "method": "GET",
+            "uri": "/chat/get-to-read"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": ""
+            }
+        }
+    },
+    {
+        "description": "getPayParam",
+        "request": {
+            "method": "GET",
+            "uri": "/chat/get-to-read1"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "from_user_id": "1018023",
+                    "to_user_id": "1018034",
+                    "content": "测试545555998008",
+                    "message_type": "1"
+                }
+            }
+        }
+    }
+]

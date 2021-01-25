@@ -1,0 +1,199 @@
+[
+    {
+        "description": "fetchMemberUpgrade",
+        "request": {
+            "method": "GET",
+            "uri": "/member/upgrade"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": [
+                    {
+                        "id": 2,
+                        "levelname": "经纪人认证会员",
+                        "perday_maxpost": 6,
+                        "perday_maxrefresh": 20,
+                        "total_maxpost": 40,
+                        "fixed_refresh": 1,
+                        "types": [
+                            {
+                                "id": 1,
+                                "name": "一个月",
+                                "money": "300.00",
+                                "days": 30,
+                                "descp": "",
+                                "is_give": 2,
+                                "give_num": 3000,
+                                "corn": 0,
+                                "integral": 3000,
+                                "info_top": 0,
+                                "info_selected": 0,
+                                "limit_buy": 0,
+                                "limit_buy_time": 0,
+                                "pay_by_corn": 1
+                            },
+                            {
+                                "id": 2,
+                                "name": "一季度",
+                                "money": "1200.00",
+                                "days": 90,
+                                "descp": "",
+                                "is_give": 2,
+                                "give_num": 12000,
+                                "corn": 0,
+                                "integral": 12000,
+                                "info_top": 0,
+                                "info_selected": 0,
+                                "limit_buy": 0,
+                                "limit_buy_time": 0,
+                                "pay_by_corn": 1
+                            },
+                            {
+                                "id": 4,
+                                "name": "半年",
+                                "money": "1500.00",
+                                "days": 183,
+                                "descp": "",
+                                "is_give": 2,
+                                "give_num": 16000,
+                                "corn": 0,
+                                "integral": 16000,
+                                "info_top": 0,
+                                "info_selected": 0,
+                                "limit_buy": 0,
+                                "limit_buy_time": 0,
+                                "pay_by_corn": 1
+                            },
+                            {
+                                "id": 5,
+                                "name": "一年",
+                                "money": "2400.00",
+                                "days": 365,
+                                "descp": "",
+                                "is_give": 2,
+                                "give_num": 32000,
+                                "corn": 0,
+                                "integral": 32000,
+                                "info_top": 0,
+                                "info_selected": 0,
+                                "limit_buy": 0,
+                                "limit_buy_time": 0,
+                                "pay_by_corn": 1
+                            },
+                            {
+                                "id": 6,
+                                "name": "两年",
+                                "money": "4200.00",
+                                "days": 730,
+                                "descp": "400",
+                                "is_give": 2,
+                                "give_num": 80000,
+                                "corn": 0,
+                                "integral": 80000,
+                                "info_top": 0,
+                                "info_selected": 0,
+                                "limit_buy": 0,
+                                "limit_buy_time": 0,
+                                "pay_by_corn": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "levelname": "经纪人VIP会员",
+                        "perday_maxpost": 40,
+                        "perday_maxrefresh": 50,
+                        "total_maxpost": 1000,
+                        "fixed_refresh": 2,
+                        "types": [
+                            {
+                                "id": 8,
+                                "name": "一个月",
+                                "money": "500.00",
+                                "days": 30,
+                                "descp": "",
+                                "is_give": 1,
+                                "give_num": 25,
+                                "corn": 25,
+                                "integral": 0,
+                                "info_top": 0,
+                                "info_selected": 0,
+                                "limit_buy": 0,
+                                "limit_buy_time": 0,
+                                "pay_by_corn": 1
+                            },
+                            {
+                                "id": 9,
+                                "name": "一季度",
+                                "money": "1500.00",
+                                "days": 92,
+                                "descp": "",
+                                "is_give": 1,
+                                "give_num": 100,
+                                "corn": 100,
+                                "integral": 0,
+                                "info_top": 0,
+                                "info_selected": 0,
+                                "limit_buy": 0,
+                                "limit_buy_time": 0,
+                                "pay_by_corn": 1
+                            },
+                            {
+                                "id": 10,
+                                "name": "半年",
+                                "money": "2000.00",
+                                "days": 183,
+                                "descp": "",
+                                "is_give": 1,
+                                "give_num": 168,
+                                "corn": 168,
+                                "integral": 0,
+                                "info_top": 0,
+                                "info_selected": 0,
+                                "limit_buy": 0,
+                                "limit_buy_time": 0,
+                                "pay_by_corn": 1
+                            },
+                            {
+                                "id": 11,
+                                "name": "一年",
+                                "money": "3600.00",
+                                "days": 365,
+                                "descp": "",
+                                "is_give": 1,
+                                "give_num": 300,
+                                "corn": 300,
+                                "integral": 0,
+                                "info_top": 0,
+                                "info_selected": 0,
+                                "limit_buy": 0,
+                                "limit_buy_time": 0,
+                                "pay_by_corn": 1
+                            },
+                            {
+                                "id": 12,
+                                "name": "两年",
+                                "money": "6800.00",
+                                "days": 730,
+                                "descp": "",
+                                "is_give": 1,
+                                "give_num": 800,
+                                "corn": 800,
+                                "integral": 0,
+                                "info_top": 0,
+                                "info_selected": 0,
+                                "limit_buy": 0,
+                                "limit_buy_time": 0,
+                                "pay_by_corn": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+]

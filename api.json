@@ -27,6 +27,9 @@
     "include": "api/fczx/cityList.json"
   },
   {
+    "include": "api/fczx/collectList.json"
+  },
+  {
     "include": "api/fczx/community/find.json"
   },
   {
@@ -46,6 +49,9 @@
   },
   {
     "include": "api/fczx/esfList.json"
+  },
+  {
+    "include": "api/fczx/getToRead.json"
   },
   {
     "include": "api/fczx/house/1000006.json"
@@ -96,6 +102,9 @@
     "include": "api/fczx/news/list.json"
   },
   {
+    "include": "api/fczx/pay.json"
+  },
+  {
     "include": "api/fczx/plot-list.json"
   },
   {
@@ -109,6 +118,9 @@
   },
   {
     "include": "api/fczx/searchKeyList.json"
+  },
+  {
+    "include": "api/fczx/user/agentvip.json"
   },
   {
     "include": "api/fczx/user/chat.json"

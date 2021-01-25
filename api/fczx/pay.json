@@ -1,0 +1,24 @@
+[
+    {
+        "description": "getPayParam",
+        "request": {
+            "method": "GET",
+            "uri": "/pay/get"
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": {
+                    "timeStamp": "1611302955",
+                    "package": "prepay_id=wx221609189016546ed4488675d384600000",
+                    "paySign": "w+u8ZGIC6aL10NZZWBvmcczQtuq/B1SxL76cRIXVHNMKavnbJiDLqAEGzmkrBIqGJW1g0yr8lCXXjRWjZorhkPbCsNJG7kClN4pE0tu+mPddyQj09d00+46X4BCxM8DDY1LMWjclieD4cctMIj3USypK8QgnQbDWAI3P58n6Oauqtn4+k0bFYBsP7dMLFh3BjJL17mQxH2cjfpwJo/wXY3N3dIv+LmaUgiFYnWeM+tUx2y0lS6MYnS9qXygA80ur1iLQmnun/1zzIi0uafDHAzxmY0dnT2yagWQW79pyW//+j4FFkY32aZa6Oqek0r47B+kjwuR6GbXt6SbEEtypSg==",
+                    "signType": "RSA",
+                    "nonceStr": "gzzNYMWAm8qFcD8IFzy4fEvyK9CFmQZf"
+                }
+            }
+        }
+    }
+]
