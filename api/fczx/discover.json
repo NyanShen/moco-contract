@@ -3,7 +3,7 @@
         "description": "fetchDiscoverList",
         "request": {
             "method": "GET",
-            "uri": "/discover/list"
+            "uri": "/fang-house-circle/find"
         },
         "response": {
             "status": 200,
@@ -13,102 +13,273 @@
                 "status": 200,
                 "data": {
                     "pagination": {
-                        "totalCount": 2
+                        "pageParam": "page",
+                        "pageSizeParam": "per-page",
+                        "forcePageParam": true,
+                        "route": null,
+                        "params": null,
+                        "urlManager": null,
+                        "validatePage": true,
+                        "totalCount": 3,
+                        "defaultPageSize": 20,
+                        "pageSizeLimit": [
+                            1,
+                            50
+                        ]
                     },
                     "data": [
                         {
-                            "id": "1001",
-                            "type": "image",
-                            "content": "110户型样板间客厅展示",
-                            "media": [
+                            "id": "1000019",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "user_id": "1018034",
+                            "fang_house_consultant_id": "1000015",
+                            "fang_house_id": "1000046",
+                            "face_path": "",
+                            "video_path": "",
+                            "vr_path": "",
+                            "content": "我再测试呀，测试可以吧",
+                            "status": "1",
+                            "sort": "0",
+                            "created": "1611805877",
+                            "modified": "1611805877",
+                            "user": {
+                                "id": "1018034",
+                                "username": "fczx_16113012758926",
+                                "mobile": "13928454036",
+                                "nickname": "what's your dream",
+                                "avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/2kIxLzT1eyHCThStxm8vLon1jq0LmfLCHd3XweAvqnjyXlcMe03YSlkQXV4SUgj2sRuHxIfiagYfWPmeaPhshqA/132"
+                            },
+                            "fangHouseCircleImage": [
                                 {
-                                    "image_path": "https://static.fczx.com/a/202012/04/t/q/4e8d2064f178e27fed8e113f0faac775.jpg"
+                                    "id": "7",
+                                    "agent_id": "101",
+                                    "area_id": "420600",
+                                    "fang_house_circle_id": "1000019",
+                                    "image_path": "https://static.fczx.com/u/202101/28/m/3/3be19bc16420fa82ad5781dd10c4d721.jpg",
+                                    "sort": "0",
+                                    "created": "1611805877",
+                                    "modified": "1611805877"
                                 },
                                 {
-                                    "image_path": "https://static.fczx.com/a/202012/04/n/p/4a4df62fc10dd4692129d6dbc5466eea.jpg"
+                                    "id": "8",
+                                    "agent_id": "101",
+                                    "area_id": "420600",
+                                    "fang_house_circle_id": "1000019",
+                                    "image_path": "https://static.fczx.com/u/202101/28/0/8/cc3908086699465791805aef73c842e5.png",
+                                    "sort": "0",
+                                    "created": "1611805877",
+                                    "modified": "1611805877"
                                 },
                                 {
-                                    "image_path": "https://static.fczx.com/a/202012/04/d/l/02a4d9407ff883c9caa348edef2ba890.jpg"
+                                    "id": "9",
+                                    "agent_id": "101",
+                                    "area_id": "420600",
+                                    "fang_house_circle_id": "1000019",
+                                    "image_path": "https://static.fczx.com/u/202101/28/s/m/2445e13f45146bc093cfd52e963d634e.jpg",
+                                    "sort": "0",
+                                    "created": "1611805877",
+                                    "modified": "1611805877"
                                 }
                             ],
                             "fangHouse": {
-                                "id": "195",
-                                "title": "襄阳吾悦广场",
-                                "image_path": "https://static.fczx.com/a/202012/04/n/p/4a4df62fc10dd4692129d6dbc5466eea.jpg",
-                                "price": "21000",
+                                "id": "1000046",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "title": "襄阳融创·民发|御湖壹号",
+                                "alias": "xiangyangrongchuangminfayuhuyihao",
+                                "image_path": "https://static.fczx.com/a/202012/04/t/q/4e8d2064f178e27fed8e113f0faac775.jpg",
+                                "description": "融创·民发|御湖壹号项目位居高新区，扼守高新区“黄金三角”的门户要地。坐享“三横两纵”城市干道，接驳襄州站/襄阳站/襄阳机场等交通枢纽，快速便捷出行；项目直线距离约2公里范围内，两大商圈繁华尽享。坐拥车城湖湖景资源，建筑面积约37万方磅礴体量规划，打造综合容积率约1.77，绿地率约35%的低密大城。建面约80-140㎡功能户型，以阔景高层、墅质洋房、花园叠墅的业态组合，将自然与生活无界融合，以大盘格局匠筑一座城市低密藏品。\n\n融创X民发 巨匠合鸣\n融创，以世界为眸，理解每个中国家庭的美好生活期望；\n民发，以襄阳为根，洞悉每一位襄阳人的理想人居愿望。\n\n中轴之上 扼守高新门户\n择址高新区汽车工业园车城湖南板块，紧邻东风汽车大道，比邻4号、5号地铁线（规划中），作为高新区通往城市全域的“黄金三角”，是扼守城市的门户要地。\n\n繁华荟萃 轻松接驳全域\n“两纵三横”城市干道，快速直达城市各区域，轻松接驳城市交通枢纽，直线距离约2公里范围内，共享两大商圈。\n\n内外学府 臻享教育大城\n打造社区臻品教育服务，配备双幼儿园、24班小学，实现真正的“目送式教育”，临近襄阳实验小学，襄阳34中等优质教育，助力孩子成长。\n\n车城湖畔 匠筑低密范本\n约37万方磅礴体量规划，综合容积率1.77，绿地率35%，建面约80-140㎡功能户型，阔景高层、墅质洋房，花园叠墅业态组合，以大盘格局主笔高新封面作品，匠筑城市低密藏品。",
+                                "longitude": "112.193211",
+                                "latitude": "32.107728",
+                                "fang_area_id": "1000004",
+                                "fang_area_circle": "0",
+                                "fang_building_type": "[\"147\",\"149\"]",
+                                "fang_direction_type": "",
+                                "fang_project_feature": "[\"1000018\",\"1000022\"]",
+                                "fang_property_type": "[\"146\",\"147\"]",
+                                "fang_renovation_status": "[\"167\"]",
+                                "fang_room_type": "[\"185\",\"186\",\"187\"]",
+                                "fang_subway": "",
+                                "fang_subway_station": "",
+                                "fang_sand_pic": "https://static.fczx.com/a/202012/04/m/u/d941bfd315c4509fe646f74aa551fafe.jpg",
+                                "fang_sand_status": "1",
+                                "price": "9000",
                                 "price_type": "1",
-                                "sale_status": "2",
-                                "area": {
-                                    "id": "420683",
-                                    "name": "樊城区"
-                                }
-                            },
-                            "author": {
-                                "id": 1018023,
-                                "username": "fczx_15928984648819",
-                                "mobile": "132765546",
-                                "nickname": "Nyan Shen",
-                                "avatar": "https://static.fczx.com/a/202012/04/d/l/02a4d9407ff883c9caa348edef2ba890.jpg"
+                                "sale_status": "1",
+                                "is_recommend": "1",
+                                "address": "襄阳市高新区东风汽车大道与金凤路交汇处",
+                                "phone": "400-819-0876转4307",
+                                "open_time": "1605916800",
+                                "build_year": "2020",
+                                "sort": "0",
+                                "status": "1",
+                                "house_type": "1",
+                                "house_num": "0",
+                                "rent_num": "0",
+                                "views_num": "0",
+                                "comment_num": "0",
+                                "image_comment_num": "0",
+                                "created": "1607052812",
+                                "modified": "1607571038",
+                                "is_group": "2",
+                                "is_discount": "2"
                             }
                         },
                         {
-                            "id": "1002",
-                            "type": "video",
-                            "content": "提前襄阳国投国际参观美丽景色吧，我们美丽的家园！",
-                            "media": {
-                                "video_path": "https://static.fczx.com/www/assets/images/video.mp4",
-                                "poster_path": "https://static.fczx.com/a/202012/04/d/l/02a4d9407ff883c9caa348edef2ba890.jpg"
+                            "id": "1000018",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "user_id": "1018034",
+                            "fang_house_consultant_id": "1000015",
+                            "fang_house_id": "1000046",
+                            "face_path": "",
+                            "video_path": "",
+                            "vr_path": "",
+                            "content": "11111111111111氛围让疾病安居阿尔金牌分为房价不对皮肤就不怕家的脚步吧泡泡机票部分低价爬到黄牛票吧发给",
+                            "status": "1",
+                            "sort": "0",
+                            "created": "1611804832",
+                            "modified": "1611804832",
+                            "user": {
+                                "id": "1018034",
+                                "username": "fczx_16113012758926",
+                                "mobile": "13928454036",
+                                "nickname": "what's your dream",
+                                "avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/2kIxLzT1eyHCThStxm8vLon1jq0LmfLCHd3XweAvqnjyXlcMe03YSlkQXV4SUgj2sRuHxIfiagYfWPmeaPhshqA/132"
                             },
-                            "fangHouse": {
-                                "id": "195",
-                                "title": "襄阳国投国际",
-                                "image_path": "http://static.fczx.com/a/202007/13/q/z/994648a2998d3bdd79835dc69002535c.jpg",
-                                "price": "21000",
-                                "price_type": "1",
-                                "sale_status": "3",
-                                "area": {
-                                    "id": "420683",
-                                    "name": "樊城区"
-                                }
-                            },
-                            "author": {
-                                "id": 33,
-                                "username": "fczx_15928984648819",
-                                "mobile": "132765546",
-                                "nickname": "test Shen",
-                                "avatar": "http://static.fczx.com/www/avatar/default.jpg"
-                            }
-                        },
-                        {
-                            "id": "1003",
-                            "type": "image",
-                            "content": "襄阳测试测试我在测试110户型样板间客厅展示襄阳测试测试我在测试110户型样板间客厅展示嘿嘿",
-                            "media": [
+                            "fangHouseCircleImage": [
                                 {
-                                    "image_path": "https://static.fczx.com/a/202012/04/t/q/4e8d2064f178e27fed8e113f0faac775.jpg"
-                                },
-                                {
-                                    "image_path": "https://static.fczx.com/a/202012/04/n/p/4a4df62fc10dd4692129d6dbc5466eea.jpg"
+                                    "id": "6",
+                                    "agent_id": "101",
+                                    "area_id": "420600",
+                                    "fang_house_circle_id": "1000018",
+                                    "image_path": "https://static.fczx.com/u/202101/28/g/p/71c8b3f2fe0da8869436da8c64ef516c.jpg",
+                                    "sort": "0",
+                                    "created": "1611804832",
+                                    "modified": "1611804832"
                                 }
                             ],
                             "fangHouse": {
-                                "id": "195",
-                                "title": "襄阳测试测试我在测试",
-                                "image_path": "https://static.fczx.com/a/202012/04/n/p/4a4df62fc10dd4692129d6dbc5466eea.jpg",
-                                "price": "21000",
+                                "id": "1000046",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "title": "襄阳融创·民发|御湖壹号",
+                                "alias": "xiangyangrongchuangminfayuhuyihao",
+                                "image_path": "https://static.fczx.com/a/202012/04/t/q/4e8d2064f178e27fed8e113f0faac775.jpg",
+                                "description": "融创·民发|御湖壹号项目位居高新区，扼守高新区“黄金三角”的门户要地。坐享“三横两纵”城市干道，接驳襄州站/襄阳站/襄阳机场等交通枢纽，快速便捷出行；项目直线距离约2公里范围内，两大商圈繁华尽享。坐拥车城湖湖景资源，建筑面积约37万方磅礴体量规划，打造综合容积率约1.77，绿地率约35%的低密大城。建面约80-140㎡功能户型，以阔景高层、墅质洋房、花园叠墅的业态组合，将自然与生活无界融合，以大盘格局匠筑一座城市低密藏品。\n\n融创X民发 巨匠合鸣\n融创，以世界为眸，理解每个中国家庭的美好生活期望；\n民发，以襄阳为根，洞悉每一位襄阳人的理想人居愿望。\n\n中轴之上 扼守高新门户\n择址高新区汽车工业园车城湖南板块，紧邻东风汽车大道，比邻4号、5号地铁线（规划中），作为高新区通往城市全域的“黄金三角”，是扼守城市的门户要地。\n\n繁华荟萃 轻松接驳全域\n“两纵三横”城市干道，快速直达城市各区域，轻松接驳城市交通枢纽，直线距离约2公里范围内，共享两大商圈。\n\n内外学府 臻享教育大城\n打造社区臻品教育服务，配备双幼儿园、24班小学，实现真正的“目送式教育”，临近襄阳实验小学，襄阳34中等优质教育，助力孩子成长。\n\n车城湖畔 匠筑低密范本\n约37万方磅礴体量规划，综合容积率1.77，绿地率35%，建面约80-140㎡功能户型，阔景高层、墅质洋房，花园叠墅业态组合，以大盘格局主笔高新封面作品，匠筑城市低密藏品。",
+                                "longitude": "112.193211",
+                                "latitude": "32.107728",
+                                "fang_area_id": "1000004",
+                                "fang_area_circle": "0",
+                                "fang_building_type": "[\"147\",\"149\"]",
+                                "fang_direction_type": "",
+                                "fang_project_feature": "[\"1000018\",\"1000022\"]",
+                                "fang_property_type": "[\"146\",\"147\"]",
+                                "fang_renovation_status": "[\"167\"]",
+                                "fang_room_type": "[\"185\",\"186\",\"187\"]",
+                                "fang_subway": "",
+                                "fang_subway_station": "",
+                                "fang_sand_pic": "https://static.fczx.com/a/202012/04/m/u/d941bfd315c4509fe646f74aa551fafe.jpg",
+                                "fang_sand_status": "1",
+                                "price": "9000",
                                 "price_type": "1",
-                                "sale_status": "2",
-                                "area": {
-                                    "id": "420683",
-                                    "name": "樊城区"
-                                }
+                                "sale_status": "1",
+                                "is_recommend": "1",
+                                "address": "襄阳市高新区东风汽车大道与金凤路交汇处",
+                                "phone": "400-819-0876转4307",
+                                "open_time": "1605916800",
+                                "build_year": "2020",
+                                "sort": "0",
+                                "status": "1",
+                                "house_type": "1",
+                                "house_num": "0",
+                                "rent_num": "0",
+                                "views_num": "0",
+                                "comment_num": "0",
+                                "image_comment_num": "0",
+                                "created": "1607052812",
+                                "modified": "1607571038",
+                                "is_group": "2",
+                                "is_discount": "2"
+                            }
+                        },
+                        {
+                            "id": "1000017",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "user_id": "1018034",
+                            "fang_house_consultant_id": "1000015",
+                            "fang_house_id": "1000046",
+                            "face_path": "",
+                            "video_path": "",
+                            "vr_path": "",
+                            "content": "测试刷新问题测试测试",
+                            "status": "1",
+                            "sort": "0",
+                            "created": "1611804758",
+                            "modified": "1611804758",
+                            "user": {
+                                "id": "1018034",
+                                "username": "fczx_16113012758926",
+                                "mobile": "13928454036",
+                                "nickname": "what's your dream",
+                                "avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/2kIxLzT1eyHCThStxm8vLon1jq0LmfLCHd3XweAvqnjyXlcMe03YSlkQXV4SUgj2sRuHxIfiagYfWPmeaPhshqA/132"
                             },
-                            "author": {
-                                "id": 1018028,
-                                "username": "fczx_15928984648819",
-                                "mobile": "132765546",
-                                "nickname": "Nyan Shen",
-                                "avatar": "https://static.fczx.com/a/202012/04/d/l/02a4d9407ff883c9caa348edef2ba890.jpg"
+                            "fangHouseCircleImage": [
+                                {
+                                    "id": "5",
+                                    "agent_id": "101",
+                                    "area_id": "420600",
+                                    "fang_house_circle_id": "1000017",
+                                    "image_path": "https://static.fczx.com/u/202101/28/1/h/32dc56b391715fb2069173cabe032929.jpg",
+                                    "sort": "0",
+                                    "created": "1611804758",
+                                    "modified": "1611804758"
+                                }
+                            ],
+                            "fangHouse": {
+                                "id": "1000046",
+                                "agent_id": "101",
+                                "area_id": "420600",
+                                "title": "襄阳融创·民发|御湖壹号",
+                                "alias": "xiangyangrongchuangminfayuhuyihao",
+                                "image_path": "https://static.fczx.com/a/202012/04/t/q/4e8d2064f178e27fed8e113f0faac775.jpg",
+                                "description": "融创·民发|御湖壹号项目位居高新区，扼守高新区“黄金三角”的门户要地。坐享“三横两纵”城市干道，接驳襄州站/襄阳站/襄阳机场等交通枢纽，快速便捷出行；项目直线距离约2公里范围内，两大商圈繁华尽享。坐拥车城湖湖景资源，建筑面积约37万方磅礴体量规划，打造综合容积率约1.77，绿地率约35%的低密大城。建面约80-140㎡功能户型，以阔景高层、墅质洋房、花园叠墅的业态组合，将自然与生活无界融合，以大盘格局匠筑一座城市低密藏品。\n\n融创X民发 巨匠合鸣\n融创，以世界为眸，理解每个中国家庭的美好生活期望；\n民发，以襄阳为根，洞悉每一位襄阳人的理想人居愿望。\n\n中轴之上 扼守高新门户\n择址高新区汽车工业园车城湖南板块，紧邻东风汽车大道，比邻4号、5号地铁线（规划中），作为高新区通往城市全域的“黄金三角”，是扼守城市的门户要地。\n\n繁华荟萃 轻松接驳全域\n“两纵三横”城市干道，快速直达城市各区域，轻松接驳城市交通枢纽，直线距离约2公里范围内，共享两大商圈。\n\n内外学府 臻享教育大城\n打造社区臻品教育服务，配备双幼儿园、24班小学，实现真正的“目送式教育”，临近襄阳实验小学，襄阳34中等优质教育，助力孩子成长。\n\n车城湖畔 匠筑低密范本\n约37万方磅礴体量规划，综合容积率1.77，绿地率35%，建面约80-140㎡功能户型，阔景高层、墅质洋房，花园叠墅业态组合，以大盘格局主笔高新封面作品，匠筑城市低密藏品。",
+                                "longitude": "112.193211",
+                                "latitude": "32.107728",
+                                "fang_area_id": "1000004",
+                                "fang_area_circle": "0",
+                                "fang_building_type": "[\"147\",\"149\"]",
+                                "fang_direction_type": "",
+                                "fang_project_feature": "[\"1000018\",\"1000022\"]",
+                                "fang_property_type": "[\"146\",\"147\"]",
+                                "fang_renovation_status": "[\"167\"]",
+                                "fang_room_type": "[\"185\",\"186\",\"187\"]",
+                                "fang_subway": "",
+                                "fang_subway_station": "",
+                                "fang_sand_pic": "https://static.fczx.com/a/202012/04/m/u/d941bfd315c4509fe646f74aa551fafe.jpg",
+                                "fang_sand_status": "1",
+                                "price": "9000",
+                                "price_type": "1",
+                                "sale_status": "1",
+                                "is_recommend": "1",
+                                "address": "襄阳市高新区东风汽车大道与金凤路交汇处",
+                                "phone": "400-819-0876转4307",
+                                "open_time": "1605916800",
+                                "build_year": "2020",
+                                "sort": "0",
+                                "status": "1",
+                                "house_type": "1",
+                                "house_num": "0",
+                                "rent_num": "0",
+                                "views_num": "0",
+                                "comment_num": "0",
+                                "image_comment_num": "0",
+                                "created": "1607052812",
+                                "modified": "1607571038",
+                                "is_group": "2",
+                                "is_discount": "2"
                             }
                         }
                     ]

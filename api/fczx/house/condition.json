@@ -3,226 +3,66 @@
         "description": "gethouseData",
         "request": {
             "method": "GET",
-            "uri": "/api/house/attr"
+            "uri": "/house/attr",
+            "queries": {
+                "id": "420602"
+            }
         },
         "response": {
             "status": 200,
             "json": {
                 "code": 1,
                 "message": "ok",
-                "data": {
-                    "region": [
-                        {
-                            "id": "1001",
-                            "name": "樊城区",
-                            "value": "1001"
-                        },
-                        {
-                            "id": "1002",
-                            "name": "襄城区",
-                            "value": "1002"
-                        },
-                        {
-                            "id": "1003",
-                            "name": "襄州区",
-                            "value": "1003"
-                        },
-                        {
-                            "id": "1004",
-                            "name": "谷城县",
-                            "value": "1004"
-                        },
-                        {
-                            "id": "1005",
-                            "name": "老河口",
-                            "value": "1005"
-                        },
-                        {
-                            "id": "1006",
-                            "name": "东津",
-                            "value": "1006"
-                        },
-                        {
-                            "id": "1007",
-                            "name": "高新区",
-                            "value": "1007"
-                        }
-                    ],
-                    "unit_price": [
-                        {
-                            "id": "001",
-                            "name": "4000元/m²以下",
-                            "value": "4000"
-                        },
-                        {
-                            "id": "002",
-                            "name": "4000-5000元/m²",
-                            "value": "4000-5000"
-                        },
-                        {
-                            "id": "003",
-                            "name": "5000-6000元/m²",
-                            "value": "5000-6000"
-                        },
-                        {
-                            "id": "004",
-                            "name": "6000-7000元/m²",
-                            "value": "6000-7000"
-                        },
-                        {
-                            "id": "005",
-                            "name": "7000-8000元/m²",
-                            "value": "7000-8000"
-                        },
-                        {
-                            "id": "006",
-                            "name": "8000-9000元/m²",
-                            "value": "8000-9000"
-                        },
-                        {
-                            "id": "007",
-                            "name": "9000-10000元/m²",
-                            "value": "9000-10000"
-                        },
-                        {
-                            "id": "008",
-                            "name": "10000元/m²",
-                            "value": "10000"
-                        }
-                    ],
-                    "total_price": [
-                        {
-                            "id": "001",
-                            "name": "20万以下",
-                            "value": "20"
-                        },
-                        {
-                            "id": "002",
-                            "name": "20-50万",
-                            "value": "20-50"
-                        },
-                        {
-                            "id": "003",
-                            "name": "50-100万",
-                            "value": "50-100"
-                        },
-                        {
-                            "id": "004",
-                            "name": "100万以上",
-                            "value": "100"
-                        }
-                    ],
-                    "house_type": [
-                        {
-                            "id": "001",
-                            "name": "一居",
-                            "value": "1"
-                        },
-                        {
-                            "id": "002",
-                            "name": "二居",
-                            "value": "2"
-                        },
-                        {
-                            "id": "003",
-                            "name": "三居",
-                            "value": "3"
-                        },
-                        {
-                            "id": "004",
-                            "name": "四居",
-                            "value": "4"
-                        },
-                        {
-                            "id": "005",
-                            "name": "五居",
-                            "value": "5"
-                        },
-                        {
-                            "id": "006",
-                            "name": "五居以上",
-                            "value": "6"
-                        }
-                    ],
-                    "house_property": [
-                        {
-                            "id": "001",
-                            "name": "住宅",
-                            "value": "住宅"
-                        },
-                        {
-                            "id": "002",
-                            "name": "别墅",
-                            "value": "别墅"
-                        },
-                        {
-                            "id": "003",
-                            "name": "写字楼",
-                            "value": "写字楼"
-                        },
-                        {
-                            "id": "004",
-                            "name": "商住",
-                            "value": "商住"
-                        },
-                        {
-                            "id": "005",
-                            "name": "商铺",
-                            "value": "商铺"
-                        }
-                    ],
-                    "sale_status": [
-                        {
-                            "id": "001",
-                            "name": "待售",
-                            "value": "待售"
-                        },
-                        {
-                            "id": "002",
-                            "name": "在售",
-                            "value": "在售"
-                        },
-                        {
-                            "id": "003",
-                            "name": "售完",
-                            "value": "售完"
-                        }
-                    ],
-                    "renovation": [
-                        {
-                            "id": "001",
-                            "name": "毛坯",
-                            "value": "毛坯"
-                        },
-                        {
-                            "id": "002",
-                            "name": "普通装修",
-                            "value": "普通装修"
-                        },
-                        {
-                            "id": "003",
-                            "name": "精装修",
-                            "value": "精装修"
-                        },
-                        {
-                            "id": "004",
-                            "name": "豪华装修",
-                            "value": "豪华装修"
-                        }
-                    ],
-                    "feature": [
-                        {
-                            "id": "001",
-                            "name": "小戶型",
-                            "value": "小戶型"
-                        },
-                        {
-                            "id": "002",
-                            "name": "低总价",
-                            "value": "低总价"
-                        }
-                    ]
-                }
+                "status": 200,
+                "data": [
+                    
+                ]
+            }
+        }
+    },
+    {
+        "description": "gethouseData",
+        "request": {
+            "method": "GET",
+            "uri": "/house/attr",
+            "queries": {
+                "id": "420606"
+            }
+        },
+        "response": {
+            "status": 200,
+            "json": {
+                "code": 1,
+                "message": "ok",
+                "status": 200,
+                "data": [
+                    {
+                        "id": "420606001",
+                        "pid": "420606001",
+                        "name": "万达广场",
+                        "longitude": "112.142599",
+                        "latitude": "32.050572",
+                        "sort": "0",
+                        "area_type": "3",
+                        "status": "1",
+                        "alias": "",
+                        "short_name": "",
+                        "is_hot": "2"
+                    },
+                    {
+                        "id": "420606002",
+                        "pid": "420606002",
+                        "name": "火车站",
+                        "longitude": "112.142599",
+                        "latitude": "32.050572",
+                        "sort": "0",
+                        "area_type": "3",
+                        "status": "1",
+                        "alias": "",
+                        "short_name": "",
+                        "is_hot": "2"
+                    }
+                ]
             }
         }
     },
@@ -240,19 +80,6 @@
                 "status": 200,
                 "data": {
                     "areaList": [
-                        {
-                            "id": "420683",
-                            "pid": "420600",
-                            "name": "枣阳市",
-                            "longitude": "112.778471",
-                            "latitude": "32.13473",
-                            "sort": "13",
-                            "area_type": "3",
-                            "status": "1",
-                            "alias": "",
-                            "short_name": "",
-                            "is_hot": "2"
-                        },
                         {
                             "id": "420602",
                             "pid": "420600",
@@ -277,7 +104,35 @@
                             "status": "1",
                             "alias": "",
                             "short_name": "",
-                            "is_hot": "2"
+                            "is_hot": "2",
+                            "circles": [
+                                {
+                                    "id": "420606001",
+                                    "pid": "420606001",
+                                    "name": "万达广场",
+                                    "longitude": "112.142599",
+                                    "latitude": "32.050572",
+                                    "sort": "0",
+                                    "area_type": "3",
+                                    "status": "1",
+                                    "alias": "",
+                                    "short_name": "",
+                                    "is_hot": "2"
+                                },
+                                {
+                                    "id": "420606002",
+                                    "pid": "420606002",
+                                    "name": "火车站",
+                                    "longitude": "112.142599",
+                                    "latitude": "32.050572",
+                                    "sort": "0",
+                                    "area_type": "3",
+                                    "status": "1",
+                                    "alias": "",
+                                    "short_name": "",
+                                    "is_hot": "2"
+                                }
+                            ]
                         },
                         {
                             "id": "420607",
@@ -345,11 +200,37 @@
                             "is_hot": "2"
                         },
                         {
+                            "id": "420683",
+                            "pid": "420600",
+                            "name": "枣阳市",
+                            "longitude": "112.778471",
+                            "latitude": "32.13473",
+                            "sort": "0",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": "",
+                            "is_hot": "2"
+                        },
+                        {
                             "id": "420684",
                             "pid": "420600",
                             "name": "宜城市",
                             "longitude": "112.264611",
                             "latitude": "31.72547",
+                            "sort": "0",
+                            "area_type": "3",
+                            "status": "1",
+                            "alias": "",
+                            "short_name": "",
+                            "is_hot": "2"
+                        },
+                        {
+                            "id": "1000004",
+                            "pid": "420600",
+                            "name": "高新区",
+                            "longitude": "112.136761",
+                            "latitude": "32.100123",
                             "sort": "0",
                             "area_type": "3",
                             "status": "1",
@@ -450,6 +331,26 @@
                             "status": "1",
                             "created": "1590457601",
                             "modified": "1590457601"
+                        },
+                        {
+                            "id": "1000036",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "洋房",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063423",
+                            "modified": "1607063423"
+                        },
+                        {
+                            "id": "1000037",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "公寓",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063428",
+                            "modified": "1607063428"
                         }
                     ],
                     "projectFeature": [
@@ -472,6 +373,56 @@
                             "status": "1",
                             "created": "1590457601",
                             "modified": "1590457601"
+                        },
+                        {
+                            "id": "1000018",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "品牌地产",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063438",
+                            "modified": "1607063438"
+                        },
+                        {
+                            "id": "1000019",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "江景地产",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063443",
+                            "modified": "1607063443"
+                        },
+                        {
+                            "id": "1000020",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "湖景地产",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063449",
+                            "modified": "1607063449"
+                        },
+                        {
+                            "id": "1000021",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "综合体",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063453",
+                            "modified": "1607063453"
+                        },
+                        {
+                            "id": "1000022",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "低密居所",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063459",
+                            "modified": "1607063459"
                         }
                     ],
                     "renovationStatus": [
@@ -648,6 +599,46 @@
                             "status": "1",
                             "created": "1590457601",
                             "modified": "1590457601"
+                        },
+                        {
+                            "id": "1000036",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "超高层",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063387",
+                            "modified": "1607063387"
+                        },
+                        {
+                            "id": "1000037",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "叠拼",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063400",
+                            "modified": "1607063400"
+                        },
+                        {
+                            "id": "1000038",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "双拼",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063406",
+                            "modified": "1607063406"
+                        },
+                        {
+                            "id": "1000039",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "联排",
+                            "sort": "0",
+                            "status": "1",
+                            "created": "1607063411",
+                            "modified": "1607063411"
                         }
                     ],
                     "totalPrice": [
@@ -756,7 +747,18 @@
                             "id": "162",
                             "agent_id": "101",
                             "area_id": "420600",
-                            "name": "8-10千",
+                            "name": "8-9千",
+                            "min": "8000",
+                            "max": "10000",
+                            "status": "1",
+                            "created": "1590457601",
+                            "modified": "1590457601"
+                        },
+                        {
+                            "id": "162",
+                            "agent_id": "101",
+                            "area_id": "420600",
+                            "name": "9-10千",
                             "min": "8000",
                             "max": "10000",
                             "status": "1",
@@ -864,11 +866,6 @@
                             "icon": " &#xe651;"
                         },
                         {
-                            "id": "7",
-                            "name": "热水器",
-                            "icon": " &#xe6a6;"
-                        },
-                        {
                             "id": "8",
                             "name": "暖气",
                             "icon": " &#xe636;"
@@ -908,7 +905,7 @@
                         },
                         {
                             "id": "2",
-                            "name": "2010-2020年"
+                            "name": "2000-2010年"
                         },
                         {
                             "id": "3",
@@ -923,6 +920,42 @@
                         {
                             "id": "2",
                             "name": "合租"
+                        }
+                    ],
+                    "elevator": [
+                        {
+                            "id": "1",
+                            "name": "有"
+                        },
+                        {
+                            "id": "2",
+                            "name": "无"
+                        }
+                    ],
+                    "payType": [
+                        {
+                            "id": "1",
+                            "name": "付一押一"
+                        },
+                        {
+                            "id": "2",
+                            "name": "付二押一"
+                        },
+                        {
+                            "id": "3",
+                            "name": "付三押一"
+                        },
+                        {
+                            "id": "4",
+                            "name": "半年付"
+                        },
+                        {
+                            "id": "5",
+                            "name": "年付"
+                        },
+                        {
+                            "id": "6",
+                            "name": "面议"
                         }
                     ]
                 }
